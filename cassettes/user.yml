@@ -1,0 +1,1461 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.duolingo.com/users/Novohispano
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sat, 25 Jan 2014 05:42:49 GMT
+      Server:
+      - nginx/1.2.0
+      Set-Cookie:
+      - wuuid=e81535d6-1607-4686-b583-636b56e8b297
+      X-Runtime:
+      - '0.56683'
+      X-Tid:
+      - 018708e952e34eb40037
+      X-Ws:
+      - 10.0.1.135
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"language_data": {"pt": {"streak": 0, "language_string": "Portuguese",
+        "level_progress": 35, "first_time": false, "num_global_practice": 1, "points_rank":
+        3, "max_level": false, "level_tests": [], "next_level": 11, "show_real_world_practice":
+        true, "points_ranking_data": [{"username": "javiayala", "language_string":
+        "Portuguese", "points_data": {"languages": [{"language_string": "English",
+        "points": 3251}, {"language_string": "Italian", "points": 1108}, {"language_string":
+        "French", "points": 89}], "total": 4448}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/190319/r9rq54lkdq",
+        "language": "pt", "self": false, "id": 190319, "rank": 1}, {"username": "obvio171",
+        "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "Spanish", "points": 1780}, {"language_string": "German", "points": 681}],
+        "total": 2461}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/238876/iY1ZuXhohK",
+        "language": "pt", "self": false, "id": 238876, "rank": 2}, {"username": "novohispano",
+        "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "Portuguese", "points": 2285}], "total": 2285}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2766200/XQUSZbmYkD",
+        "language": "pt", "self": true, "id": 2766200, "rank": 3}, {"username": "renechz",
+        "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "German", "points": 1549}, {"language_string": "French", "points": 24}, {"language_string":
+        "English", "points": 0}, {"language_string": "Spanish", "points": 0}], "total":
+        1573}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/869154/aOd7dXc_rN",
+        "language": "pt", "self": false, "id": 869154, "rank": 4}, {"username": "bcp223",
+        "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "Spanish", "points": 1300}, {"language_string": "French", "points": 65}, {"language_string":
+        "Portuguese", "points": 0}], "total": 1365}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/11187110/84BA2wkfg2",
+        "language": "pt", "self": false, "id": 11187110, "rank": 5}, {"username":
+        "abracarioca", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "Italian", "points": 1280}, {"language_string": "French",
+        "points": 0}, {"language_string": "English", "points": 0}], "total": 1280},
+        "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2346131/vwCaTAD8PZ",
+        "language": "pt", "self": false, "id": 2346131, "rank": 6}, {"username": "oui55555",
+        "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "English", "points": 982}], "total": 982}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/8973815/ea01gKMnQq",
+        "language": "pt", "self": false, "id": 8973815, "rank": 7}, {"username": "branzel",
+        "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "English", "points": 776}], "total": 776}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2639963/HqTAJMQG17",
+        "language": "pt", "self": false, "id": 2639963, "rank": 8}, {"username": "adrian2112",
+        "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "German", "points": 555}, {"language_string": "Spanish", "points": 0}], "total":
+        555}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/199648/6CEyG4x_a_",
+        "language": "pt", "self": false, "id": 199648, "rank": 9}, {"username": "gelizondo82",
+        "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "German", "points": 463}], "total": 463}, "avatar": "https://s3.amazonaws.com/duolingo-images/avatar/default_1",
+        "language": "pt", "self": false, "id": 7893088, "rank": 10}, {"username":
+        "jorgeavilam", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "Portuguese", "points": 311}, {"language_string": "English",
+        "points": 135}], "total": 446}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1349609/ghdY5Gy-46",
+        "language": "pt", "self": false, "id": 1349609, "rank": 11}, {"username":
+        "jorge.e.go", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "Italian", "points": 341}, {"language_string": "German",
+        "points": 45}, {"language_string": "French", "points": 0}], "total": 386},
+        "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/4371411/P-LQMqa9XX",
+        "language": "pt", "self": false, "id": 4371411, "rank": 12}, {"username":
+        "chekiesco", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "French", "points": 367}], "total": 367}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1047964/nFMMLnvQbf",
+        "language": "pt", "self": false, "id": 1047964, "rank": 13}, {"username":
+        "hjbarraza", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "French", "points": 364}, {"language_string": "English",
+        "points": 0}, {"language_string": "Spanish", "points": 0}], "total": 364},
+        "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1496772/73OnYAqxdf",
+        "language": "pt", "self": false, "id": 1496772, "rank": 14}, {"username":
+        "gabrielasalinas", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "French", "points": 324}], "total": 324}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2713435/iHAf9nYcnY",
+        "language": "pt", "self": false, "id": 2713435, "rank": 15}, {"username":
+        "lalalainexd", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "French", "points": 298}, {"language_string": "German",
+        "points": 13}, {"language_string": "Portuguese", "points": 10}], "total":
+        321}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/4419570/4I7Asf_0AH",
+        "language": "pt", "self": false, "id": 4419570, "rank": 16}, {"username":
+        "horaciochavez", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "English", "points": 249}, {"language_string": "French",
+        "points": 0}], "total": 249}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/7959061/ZFQG6wnpZH",
+        "language": "pt", "self": false, "id": 7959061, "rank": 17}, {"username":
+        "eldelentes", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "English", "points": 245}, {"language_string": "Spanish",
+        "points": 0}], "total": 245}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1375328/uscER1LvDZ",
+        "language": "pt", "self": false, "id": 1375328, "rank": 18}, {"username":
+        "joshuafrancia", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "English", "points": 200}], "total": 200}, "avatar":
+        "https://duolingo-images.s3.amazonaws.com/avatars/7551227/3IGzbiDi1G", "language":
+        "pt", "self": false, "id": 7551227, "rank": 19}, {"username": "HannahWebber",
+        "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "Spanish", "points": 188}], "total": 188}, "avatar": "https://s3.amazonaws.com/duolingo-images/avatar/default_1",
+        "language": "pt", "self": false, "id": 12704439, "rank": 20}, {"username":
+        "burtlo", "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "French", "points": 133}, {"language_string": "Spanish", "points": 52}, {"language_string":
+        "German", "points": 0}], "total": 185}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/3097616/s4UbdmA0Pp",
+        "language": "pt", "self": false, "id": 3097616, "rank": 21}, {"username":
+        "lilboo_9", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "French", "points": 176}], "total": 176}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2371694/SWpSmAJppy",
+        "language": "pt", "self": false, "id": 2371694, "rank": 22}, {"username":
+        "sarita8008", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "French", "points": 174}], "total": 174}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/4205262/dzD3HNVGUO",
+        "language": "pt", "self": false, "id": 4205262, "rank": 23}, {"username":
+        "widget_mx", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "Portuguese", "points": 144}], "total": 144}, "avatar":
+        "https://s3.amazonaws.com/duolingo-images/avatar/default_1", "language": "pt",
+        "self": false, "id": 7869284, "rank": 24}, {"username": "danielcbs", "language_string":
+        "Portuguese", "points_data": {"languages": [{"language_string": "German",
+        "points": 87}, {"language_string": "Spanish", "points": 24}], "total": 111},
+        "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1280762/HdZJ-DHaZP",
+        "language": "pt", "self": false, "id": 1280762, "rank": 25}, {"username":
+        "juanpabloe", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "English", "points": 79}, {"language_string": "Portuguese",
+        "points": 23}, {"language_string": "German", "points": 0}], "total": 102},
+        "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1393543/mxYX1MTaxw",
+        "language": "pt", "self": false, "id": 1393543, "rank": 26}, {"username":
+        "jemaddux", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "Italian", "points": 86}, {"language_string": "French",
+        "points": 0}, {"language_string": "German", "points": 0}, {"language_string":
+        "Portuguese", "points": 0}, {"language_string": "Spanish", "points": 0}],
+        "total": 86}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2661913/uZ0q7mBks8",
+        "language": "pt", "self": false, "id": 2661913, "rank": 27}, {"username":
+        "jonah_moses", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "Spanish", "points": 81}], "total": 81}, "avatar": "https://s3.amazonaws.com/duolingo-images/avatar/default_1",
+        "language": "pt", "self": false, "id": 3477287, "rank": 28}, {"username":
+        "javiersaldana", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "German", "points": 79}], "total": 79}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1694737/MdqOoelfPG",
+        "language": "pt", "self": false, "id": 1694737, "rank": 29}, {"username":
+        "hermayonaise", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "German", "points": 77}], "total": 77}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/3836868/2H-XFGXwfY",
+        "language": "pt", "self": false, "id": 3836868, "rank": 30}, {"username":
+        "zenbakiak", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "English", "points": 67}], "total": 67}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/8754623/uVjeQ0uVtt",
+        "language": "pt", "self": false, "id": 8754623, "rank": 31}, {"username":
+        "nlalo", "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "Italian", "points": 62}, {"language_string": "English", "points": 0}], "total":
+        62}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/7911566/EHRz92UTxS",
+        "language": "pt", "self": false, "id": 7911566, "rank": 32}, {"username":
+        "deniscantu", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "French", "points": 51}], "total": 51}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/7849150/vogRVVuV9B",
+        "language": "pt", "self": false, "id": 7849150, "rank": 33}, {"username":
+        "catherine.157", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "Spanish", "points": 50}], "total": 50}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/9577875/sytuxqTmrU",
+        "language": "pt", "self": false, "id": 9577875, "rank": 34}, {"username":
+        "eyannini", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "English", "points": 26}], "total": 26}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/3685950/Dt_A9wKk-u",
+        "language": "pt", "self": false, "id": 3685950, "rank": 35}, {"username":
+        "LulaV14", "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "French", "points": 26}, {"language_string": "Italian", "points": 0}], "total":
+        26}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2202871/G2aNbXxJhi",
+        "language": "pt", "self": false, "id": 2202871, "rank": 36}, {"username":
+        "anaisvega", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "German", "points": 23}, {"language_string": "Italian",
+        "points": 0}], "total": 23}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/5477610/ETp6INkJmA",
+        "language": "pt", "self": false, "id": 5477610, "rank": 37}, {"username":
+        "Sorasnd", "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "English", "points": 22}], "total": 22}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/733166/gjA83mw5_Z",
+        "language": "pt", "self": false, "id": 733166, "rank": 38}, {"username": "ojosef",
+        "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "Spanish", "points": 11}, {"language_string": "Italian", "points": 11}, {"language_string":
+        "Portuguese", "points": 0}], "total": 22}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/927170/SNyRU__o57",
+        "language": "pt", "self": false, "id": 927170, "rank": 39}, {"username": "celestenorth",
+        "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "Portuguese", "points": 22}], "total": 22}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/3312596/MnIwrT23Kl",
+        "language": "pt", "self": false, "id": 3312596, "rank": 40}, {"username":
+        "cuadraman", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "English", "points": 10}], "total": 10}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2104489/92SSPk9J5f",
+        "language": "pt", "self": false, "id": 2104489, "rank": 41}, {"username":
+        "cyraxjoe", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "French", "points": 10}], "total": 10}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/10258474/jtoOmNCGRg",
+        "language": "pt", "self": false, "id": 10258474, "rank": 42}, {"username":
+        "JasonFlores", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "English", "points": 10}], "total": 10}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/81071/H8EaJ09whW",
+        "language": "pt", "self": false, "id": 81071, "rank": 43}, {"username": "belpesce",
+        "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "Italian", "points": 10}], "total": 10}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2706122/E7MiWt3R4F",
+        "language": "pt", "self": false, "id": 2706122, "rank": 44}, {"username":
+        "aracena", "language_string": "Portuguese", "points_data": {"languages": [{"language_string":
+        "Portuguese", "points": 10}], "total": 10}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1430645/exDBs4b5Zz",
+        "language": "pt", "self": false, "id": 1430645, "rank": 45}, {"username":
+        "ivanpe83", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "English", "points": 0}], "total": 0}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/8015663/UF_XdigTeT",
+        "language": "pt", "self": false, "id": 8015663, "rank": 46}, {"username":
+        "maxcantu", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "English", "points": 0}], "total": 0}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1369660/iFPaOnUeIV",
+        "language": "pt", "self": false, "id": 1369660, "rank": 47}, {"username":
+        "DFectuoso", "language_string": "Portuguese", "points_data": {"languages":
+        [{"language_string": "German", "points": 0}], "total": 0}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/3391300/QGUIlOxha4",
+        "language": "pt", "self": false, "id": 3391300, "rank": 48}], "num_skills_learned":
+        24, "calendar": [], "level_left": 715, "no_dep": true, "language_strength":
+        0.63, "level_percent": 4, "language": "pt", "level": 10, "skills": [{"language_string":
+        "Portuguese", "dependencies_name": ["VERBS-GERUND", "VERBS-FUTURE"], "disabled":
+        false, "missing_lessons": 6, "url_title": "Arts", "description": "Words used
+        in art, such as <i>poetry</i> and <i>music</i>.", "category": "new-vocabulary",
+        "index": "32", "strength": 0, "title": "Arts", "coords_y": 31, "coords_x":
+        1, "id": "d3720cfd22bd25783322e6af9524d674", "learned": false, "show_strength_message":
+        false, "icon_color": "green", "num_lexemes": 40, "num_missing": 40, "dependencies":
+        ["Verbs: Gerund", "Verbs: Future"], "known_lexemes": [], "words": ["estilo",
+        "literatura", "ritmo", "poesia", "som", "instrumentos", "modas", "concerto",
+        "orquestra", "\u00f3pera"], "short": "Arts", "locked": true, "name": "ARTS",
+        "language": "pt", "new_index": "17", "changed": false, "progress_percent":
+        0, "mastered": false}, {"language_string": "Portuguese", "dependencies_name":
+        ["TU-OR-VOC\u00ca", "POSSESSIVES"], "disabled": false, "missing_lessons":
+        0, "url_title": "Clothing", "description": "Words that refer to common clothing
+        items, such as <i>skirt</i> and <i>shoes</i>.", "category": "new-vocabulary",
+        "index": "6", "strength": 0.5, "title": "Clothing", "coords_y": 6, "coords_x":
+        2, "id": "12682b6e6263027171be9d8e1004a72b", "learned": true, "show_strength_message":
+        true, "icon_color": "red", "num_lexemes": 24, "num_missing": 0, "dependencies":
+        ["Tu or Voc\u00ea", "Possessives"], "known_lexemes": ["38ec3b04540c300424b556dee6e5dbe5",
+        "b70b44f07b89cc7c5ac2626029a8952a", "1fc183ee42e2f440f7ca318fc6c46e63", "c51c3de41e1738fef6233bae874f327b",
+        "9efffbcb52dac1660ecdbf050ec6dfc6", "3a898602c268f23d8acbeadacc9138be", "2922d48ff827eb606ab8250dbbd2c777",
+        "bae1d9927dc8b6f7b0d0a85263d4b74f", "5ed55ec92cea6a460d958312209ea9f2", "f0ebd2f66e246d83ef3472450bef2c50",
+        "893e7196d25fc098cb4cd59ba7790b80", "6e39fa977508d7c2e5990cfddc80b2f7", "540d7477d35047a1282a4075b9fbbc6e",
+        "e5763e76d689659be63b7865507b9711", "8b660cb351b4d1e80c17f8a307818f6e", "ea4376960a20b4891d4df42fff043988",
+        "5378fee9d18dc3f1849d366858ea874a", "baa2d2366f5bb5b8e0ea7571c4af710b", "eca9cad5e0a5d96f5db19271e2e3e122",
+        "6e820e73c9936c1c90e20a174f3dd1ad", "5377c84560aaf45988067be11302d1d8", "24b2e93d377eab403430ed325963b7a0",
+        "3bd5d714e2fd898a573a4d1ae48b2791", "5e580dce57b5b52541e4d9a865fb2a36"], "words":
+        ["chap\u00e9u", "sapatos", "saias", "vestidos", "camisas", "roupas", "bolsas",
+        "cintos", "blusa", "bota"], "short": "Clothing", "locked": false, "name":
+        "CLOTHING", "language": "pt", "new_index": "26", "changed": false, "progress_percent":
+        100.0, "mastered": true}, {"language_string": "Portuguese", "dependencies_name":
+        ["HOUSEHOLD", "MEASUREMENTS"], "disabled": false, "missing_lessons": 0, "url_title":
+        "Adjectives-1", "description": "Words that describe qualities of objects,
+        such as <i>old</i> and <i>pretty</i>.", "category": "new-grammar", "index":
+        "15", "strength": 0.5, "title": "Adjectives 1", "coords_y": 14, "coords_x":
+        2, "id": "79dee213d48e7aaf30e82d7d4b86a358", "learned": true, "show_strength_message":
+        true, "icon_color": "red", "num_lexemes": 68, "num_missing": 0, "dependencies":
+        ["Household", "Measurements"], "known_lexemes": ["b2a8b05d6a5ed237d92d8290103b3adc",
+        "a7418a253eaf907d9962b45d69bb54c9", "c7462dc566af9de1549f87bf6cee7fa3", "a19a93a52cfda867e098768c2029b328",
+        "7803345055a0a79346ece370b251d502", "16dd3af4bfb1b07db072840fff7aa26f", "2e1795e10aed22cab9aaf6d54ab087d7",
+        "822117cc4c4a4ddf506ced79746cfcc1", "61db549bcd1afc66adaa19366d5e8b6d", "fcebef97b9ea9ec7426747f4975143af",
+        "fd02373e52e24979e9cae180e015fb54", "8b170bb8b9911be428d058b9a35e8879", "6672960f775165dc83756bb072a6a6b1",
+        "3270e1287654e1a3021eb820de75a3c4", "e3fa34b7805e565489a31ef6c4470ff5", "17862fac0a852991eed6554cb6375877",
+        "674e1fab93b78bee9e9c0d39968bfa40", "ee645d378f33735e9255a37e2add8b4c", "96773e310fc2ca954f48153292bb5d1a",
+        "892049d254608934f1c5194b92ee422e", "e36e9152d6299cec4128b69cbfa4d67f", "e7d1a27fd7bbea94a37f7afb0fb01119",
+        "8c9ee11a022150f2f4e81d247db865d9", "2f111de24be1a6e09703d921c9d05c63", "b0a98584b28a46df0eb43c6289f91abb",
+        "cb9c6a2f94d2572e007d25491973fb0d", "17792d916fcca67a1c5fe9b40c62c48d", "5243832df89a694e94b70962b9005cac",
+        "d10f09335c4403d95aa18eb500627472", "aec2e10e875c2bd34d8d94c1566d5b4a", "9897026b1415c4c310f98200dba35d8e",
+        "5f1694809d28861a660ad3261a59ab03", "8aec3f534be764b18b5c29550038c545", "90efe2af51eed4659487af1e10eac07c",
+        "5ea73d95231d847dcbdd3f9614536c91", "bf2963e1b28d1137923688926494f745", "8848a4823712cf8c775740fa6208a2e1",
+        "bebf948777829afec8d23fae6a2ef695", "2486ae2950f5461dc63b43f3112b001f", "d04aedd16db6b887b8a8adb8c1f276ed",
+        "61a35700f92294359d43a45c60ac4d48", "002e22e780d3f4ea820f013548bf96a3", "64cce1447a0a71f60ab32cb77cfe0dad",
+        "ec10f0b865e1958d28813c526a05bc8c", "9eb3d7370beaa753b07f1a8b280ad715", "ee61669a523dfe9351a48b4f9728a4ff",
+        "439ee19ec86546c9db0125b5ca811be3", "6080c8b81bba99d3c592df66cbd47efb", "5d0440f86bbe3b907f7da14584fa66bf",
+        "6cbf1fc2dc6faa5d5ffeb4c15ce3d978", "9ca1df7c6c6985123c40020e8de43c8f", "5f7e37302caac3c2b9cc5c173657cca9",
+        "dc6fedc165f6cabc4dd8e1eacf8c35bd", "6fea9ccbdf7d1d2fa5554187607ee3cb", "bb8348669b6264eae015152aafd76210",
+        "8c7961dc19f36460a0b3ea47b8e9d0e9", "f459b8d6b46c258021d77ba3505125eb", "8c4206ec65f18832087af35affa7b2fd",
+        "d11d131a37f024fa09c2045f30dda358", "47e412a562ca3fe9cb7a4ea5a41625c7", "a045fe1cc29fe7eb3a6578e025b66765",
+        "35cdf55b26e52d3f3439fff8fe33d52d", "3d4de8378550872083ce4e370dfb46bd", "f21597578c76caae06de627187747277",
+        "3ea3eb7443df92bf031cc050dc024469", "c45d8cf76a5d4cd83b1f0d5968063075", "329aa806c646e1e624d4320162b2df19",
+        "a153e8c45da05ed448c3899d194ab4e6"], "words": ["doente", "velhas", "jovem",
+        "bonito", "bons", "maior", "primeiro", "melhores", "novas", "poss\u00edveis"],
+        "short": "Adject. 1", "locked": false, "name": "ADJECTIVES", "language": "pt",
+        "new_index": "43", "changed": false, "progress_percent": 100.0, "mastered":
+        true}, {"language_string": "Portuguese", "dependencies_name": ["VERBS-INFINITIVE",
+        "DETERMINERS"], "disabled": false, "missing_lessons": 2, "url_title": "Verbs:-Imperative",
+        "description": "The imperative tenses of actions: <i>do not eat</i>, <i>go</i>.",
+        "category": "new-verbs", "index": "48", "strength": 0, "title": "Verbs: Imperative",
+        "coords_y": 20, "coords_x": 3, "id": "f1629423d75f9fffcf66515316e60e9a", "learned":
+        false, "show_strength_message": false, "icon_color": "green", "num_lexemes":
+        15, "num_missing": 14, "dependencies": ["Verbs: Infinitive 1", "Determiners"],
+        "known_lexemes": ["cfd805fc205b1d0ac333616137a4f15c"], "words": ["v\u00e3o",
+        "espere", "venham", "faz", "diga", "pare", "fique", "deixe", "olha", "corra"],
+        "short": "V. Imper.", "locked": true, "name": "VERBS-IMPERATIVE", "language":
+        "pt", "new_index": "5", "changed": false, "progress_percent": 0, "mastered":
+        false}, {"language_string": "Portuguese", "dependencies_name": ["COLORS",
+        "QUESTIONS"], "disabled": false, "missing_lessons": 0, "url_title": "Verbs:-Present-1",
+        "description": "The present tense of actions: <i>I eat</i>, <i>you drink</i>,
+        <i>they walk</i>.", "category": "new-verbs", "index": "9", "strength": 0.5,
+        "title": "Verbs: Present 1", "coords_y": 8, "coords_x": 2, "id": "7e08c81adc96cf420ee1301fa443469d",
+        "learned": true, "show_strength_message": true, "icon_color": "green", "num_lexemes":
+        68, "num_missing": 0, "dependencies": ["Colors", "Questions"], "known_lexemes":
+        ["306d0e96cb4208d67d4f40b1533c0b6b", "9a61067120d7f5709d8700505072607b", "55c4a30646fc1571856bcbc7487ade1d",
+        "eef619bc0b698e02cd122b0de46d5fe9", "01a33a82ed461ef299a2aa902fd9e2c9", "50ec28a65d25be7d68babb8ccbe20db7",
+        "74926398161d1395fef0eeb7bef01cac", "fa60d8e6e420583540789b09305943bc", "e9dbd92bf1597fa3021af6c769ea39d4",
+        "5e9ed72c9fdc37a36d360599f7821505", "e107131a591326ae622927e3bc3c0495", "a63c9091b95379a22ba9049e19a83913",
+        "1568446803ea6f8db9e5e8b3ed0056c5", "f323cca59896ce3d9617ce8f7542c0d9", "5df60a55b03cb5542c59fad9d4d77737",
+        "c3784e467a27f12087421353e4977b8e", "8a1b54674a3109c801f6c105e06d57cb", "1bae372260043b1806d23b8e632af97e",
+        "f304d50a3fc192a72d36796bf24dad3c", "4e15bfab94795318870f480ecd7e3d0e", "22c1bb9eb7f84678844e6551ec6b326b",
+        "a0a716358b1ea21c2ce0cbce7af63f45", "4634c3159235d5c3724d35ef44e064e3", "3c186c3cbd1aeb9bdf5a59599808df85",
+        "5971b5e2d899aa3655db07e9426888f6", "a92003b689b96635b2df17664b086c4d", "1b73b9896f8bc1a431e15bdfcec83bb9",
+        "14e109ef49875c739d32eec5ff7d46e6", "46079b159c82b07b2cb5e5c9278e0a78", "da4d66b4763ffc8b25471a4256efa318",
+        "5a449bd2fb25750bb2f2c9dc183b2bd3", "fe5e99cf734f39ac7659106664ef5e0a", "daaffd52177bd51ce4162648a15eccca",
+        "6a5da20c1d9e6815cec92c4071e8eaea", "a72e474b65dde9f20c72f3831291354c", "0d0efb2e432572e712ce0a792a577f30",
+        "25702edec8b20c3e47a47da33759215e", "8684fc9be755f63eec6356d290ab4fa7", "6f388f1ceb7f6dde8cbeef2b1da4d61f",
+        "664e0dad2a481033a181dcc4925c4a0d", "c3c4c5e629d138505f4a3a23157ec5df", "48686b9f0928ed82345288ab24b1f637",
+        "e04b7d774c43b3292fc22a2219815e33", "87a2035d3e8db90a09b6f0e918e27422", "ecda31b286580e36450d0fff4988c8c9",
+        "f8a8d5d34b31f821a716f3734b4b2cbc", "87e31f43a68ab8e3a5847802d3499bd9", "802ff35e01c1b85c7007198dcfaeeb44",
+        "9107bcbc685dc1c920e700b7767d7a70", "c2ae89bad1bc3dbcf8b7c787e2502b91", "3df91061adacb629e27f74a38238895b",
+        "ba581e842aaf7833f948eb3bdecb6c43", "2a6402529b9ab4e9d4b5d1f7d5df5f95", "425283152a3d79c0a2dce61da76b36cb",
+        "4675633aeb3fae02415ae47b6cdc2f61", "31d6e33d25d2babb2d81f67ecd4232e7", "055e9241627834424ee42cab62f9606a",
+        "0bf3c5e0e938b2763ecf892720837c42", "8be33beca308b64af24cedd72f9241f1", "1ffe4c043895fb30099e1abc758c3e52",
+        "00dd9b7d4eaa2ed9e600ab113ff8e113", "6e8e357f16a02318c41113066b982059", "51b84bb709eff33cb23bac24e8106ca0",
+        "a54a1a4fe48fa047b2593bfc3c4e3c97", "0f8913f011bf78da63e352fb40e90257", "8f56d152e46fb5da2cd6e59c78c1ed2a",
+        "e4ce563039b0620c6bbef9aeb89f490a", "5c9bbfa8b53b065e2cdf5de43838637b"], "words":
+        ["vemos", "come", "bebo", "toco", "ou\u00e7o", "achamos", "acontecem", "erramos",
+        "lembro", "conversamos"], "short": "V. Pres. 1", "locked": false, "name":
+        "VERBS-PRESENT", "language": "pt", "new_index": "5", "changed": false, "progress_percent":
+        100.0, "mastered": true}, {"language_string": "Portuguese", "dependencies_name":
+        ["VERBS-PRESENT2", "ADVERBS"], "disabled": false, "missing_lessons": 9, "url_title":
+        "Objects", "description": "Words that refer to concrete objects, such as <i>car</i>
+        and <i>key</i>.", "category": "new-vocabulary", "index": "18", "strength":
+        0, "title": "Objects", "coords_y": 16, "coords_x": 3, "id": "ea426a7f51262589efb9847349105acf",
+        "learned": false, "show_strength_message": false, "icon_color": "blue", "num_lexemes":
+        64, "num_missing": 60, "dependencies": ["Verbs: Present 2", "Adverbs"], "known_lexemes":
+        ["e169cc948a805d35ada92c3ba59c44f6", "db291d03eb93d313eba29b4655a7ebb4", "4a41c7cf84bec36b386a4e5f2ed921ee",
+        "355114292da4efaae53aa8219728805a"], "words": ["carros", "garrafa", "mapa",
+        "bolas", "dinheiro", "p\u00e9s", "computador", "malas", "moto", "olhos"],
+        "short": "Objects", "locked": true, "name": "OBJECTS", "language": "pt", "new_index":
+        "51", "changed": false, "progress_percent": 0, "mastered": false}, {"language_string":
+        "Portuguese", "dependencies_name": ["BASICS"], "disabled": false, "missing_lessons":
+        0, "url_title": "Basics-2", "description": "More basic words including some
+        plurals such as <i>boys</i> and <i>girls</i>.", "category": "new-useful-stuff",
+        "index": "0", "strength": 0.75, "title": "Basics 2", "coords_y": 2, "coords_x":
+        1, "id": "3b75bc743a5b7906598bef9b55901309", "learned": true, "show_strength_message":
+        true, "icon_color": "red", "num_lexemes": 36, "num_missing": 0, "dependencies":
+        ["Basics 1"], "known_lexemes": ["9f7be4b0cad89e3453afab7e5159f9e5", "7e42f7dece8964713da3a3d797d672b9",
+        "eae19eb5946003fac4c6ec055bfae90c", "69b9dd02029bb8b66d2305fd9c9b852f", "0b2e8ac77d30fa3618d3fa68a99df48b",
+        "1acf23ffbb788d259351dc5e9cb749f8", "6c4b6cb8dc7b3376d0357fdea4ffa8ff", "93df585e7fd29cbef91c94611710ca66",
+        "97fbe1b6a32ea9fa6a9c1862acbde7c3", "7493f076a0cb57815f03748aee58a64c", "1f14196797e0976a14eba47e4e1585eb",
+        "e978b7905c93d55e1f1ab51e8f60340c", "bc44438d32f363a7c61700ff2361ad1c", "c7915410a9cff730ffe8e8d56a78df22",
+        "5f5302712fc288cc75a4f27771b4ea2b", "8b8bc2c580debf63f1208ca96cc046c5", "ddd42e3b18fa7e58a3b71b8ac0da3bb5",
+        "90883f2302040ad4a56b227b6725e73c", "c32c890a3fbf84c25e79d9a4b4fede99", "b42529e73562bb4df8c97242f3e67df0",
+        "f60efa36803b23ad4ced115250918f93", "295086f6fa46c6554244540114f8aa71", "69fdb2b105eff102b3dc8d3b3f3e1e62",
+        "f1fdc5676a599c6a5a8974efba5c3620", "43b3d7f98b6c73ee14a566a0300171a6", "9d0463c69bfb79802d324c5539ae08e8",
+        "21ce5774cae4000b8fffa8a9917bb229", "1010015bf0b58409c546d69b2950090f", "b2e1f3421eb5216ac144a5714dbf7d6b",
+        "52a4409bf910e2a2f7853da394b83004", "fb2420de60dade031cc534c3cf969189", "0f2bda0e0fb7b053496a4c9402800bf3",
+        "5c285c9927c59e6d7805e0838f521b5a", "3aeb8555dfa1b94544ef62d56869b1d9", "6b6eb18b36896344877e52826eac0d33",
+        "a650b5f58f811a5360c1c94772525a83"], "words": ["n\u00f3s", "somos", "homens",
+        "mulheres", "s\u00e3o", "voc\u00eas", "eles", "elas", "bebemos", "bebem"],
+        "short": "Basics 2", "locked": false, "name": "BASICS2", "language": "pt",
+        "new_index": "2", "changed": false, "progress_percent": 100.0, "mastered":
+        true}, {"language_string": "Portuguese", "dependencies_name": ["EDUCATION"],
+        "disabled": false, "missing_lessons": 6, "url_title": "Travel", "description":
+        "Words used when traveling, such as <i>holidays</i> and <i>tourism</i>.",
+        "category": "new-vocabulary", "index": "55", "strength": 0, "title": "Travel",
+        "coords_y": 24, "coords_x": 2, "id": "f5f76528e27af0845646b154b411c582", "learned":
+        false, "show_strength_message": false, "icon_color": "blue", "num_lexemes":
+        40, "num_missing": 38, "dependencies": ["Education"], "known_lexemes": ["5809ad5f66f8195dfeab36e7ad2f89d1",
+        "b35356998f325e1c237464b2bada2ce1"], "words": ["\u00c1frica", "Am\u00e9rica",
+        "\u00c1sia", "brasileiras", "Brasil", "China", "chineses", "Inglaterra", "ingl\u00eas",
+        "Europa"], "short": "Travel", "locked": true, "name": "TRAVEL", "language":
+        "pt", "new_index": "36", "changed": false, "progress_percent": 0, "mastered":
+        false}, {"language_string": "Portuguese", "dependencies_name": ["COMMUNICATION",
+        "NATURE"], "disabled": false, "missing_lessons": 7, "url_title": "Verbs:-Past-Imperfect",
+        "description": "The imperfect past tense of actions, similar to <i>he was
+        looking</i> and <i>they used to think</i>.", "category": "new-verbs", "index":
+        "42", "strength": 0, "title": "Verbs: Past Imperfect", "coords_y": 36, "coords_x":
+        3, "id": "49ffb2a2b35dfe3b907e1ca885eea3f2", "learned": false, "show_strength_message":
+        false, "icon_color": "blue", "num_lexemes": 51, "num_missing": 51, "dependencies":
+        ["Communication", "Nature"], "known_lexemes": [], "words": ["bebia", "comia",
+        "estava", "era", "via", "levava", "achava", "havia", "errava", "lembrava"],
+        "short": "V. P. Imp.", "locked": true, "name": "VERBS-PAST-IMPERFECT", "language":
+        "pt", "new_index": "53", "changed": false, "progress_percent": 0, "mastered":
+        false}, {"language_string": "Portuguese", "dependencies_name": ["VERBS-CONDITIONAL",
+        "VERBS-MODAL"], "disabled": false, "missing_lessons": 4, "url_title": "Verbs:-Conditional-Perfect",
+        "description": "Compound tense using conditional forms of <i>ter</i> or <i>haver</i>
+        plus participles, similar to <i>She would have eaten</i>.", "category": "new-verbs",
+        "index": "48", "strength": 0, "title": "Verbs: Conditional Perfect", "coords_y":
+        34, "coords_x": 2, "id": "4349327ef1328eae4e0fdfddd6552bf0", "learned": false,
+        "show_strength_message": false, "icon_color": "red", "num_lexemes": 29, "num_missing":
+        29, "dependencies": ["Verbs: Conditional", "Verbs: Modal"], "known_lexemes":
+        [], "words": ["teria", "achado", "acontecido", "havido", "lembrado", "trazido",
+        "adorado", "tido", "feito", "podido"], "short": "Cond. Per.", "locked": true,
+        "name": "VERBS-CONDITIONAL-PERFECT", "language": "pt", "new_index": "52",
+        "changed": false, "progress_percent": 0, "mastered": false}, {"language_string":
+        "Portuguese", "dependencies_name": ["VERBS-GERUND", "VERBS-FUTURE"], "disabled":
+        false, "missing_lessons": 3, "url_title": "Verbs:-Future-Perfect", "description":
+        "Compound tense using future forms of <i>ter</i> or <i>haver</i> plus participles,
+        similar to <i>He will have eaten</i>.", "category": "new-verbs", "index":
+        "35", "strength": 0, "title": "Verbs: Future Perfect", "coords_y": 31, "coords_x":
+        2, "id": "efb6d053691e8905acaeb83dc61f9afd", "learned": false, "show_strength_message":
+        false, "icon_color": "red", "num_lexemes": 23, "num_missing": 23, "dependencies":
+        ["Verbs: Gerund", "Verbs: Future"], "known_lexemes": [], "words": ["ter\u00e3o",
+        "acontecido", "havido", "errado", "trazido", "ido", "tido", "forem", "estiver",
+        "feito"], "short": "Fut. Per.", "locked": true, "name": "VERBS-FUTURE-PERFECT",
+        "language": "pt", "new_index": "52", "changed": false, "progress_percent":
+        0, "mastered": false}, {"language_string": "Portuguese", "dependencies_name":
+        ["MEDICAL"], "disabled": false, "missing_lessons": 9, "url_title": "Verbs:-Gerund",
+        "description": "The gerund tense of actions: <i>drinking</i>, <i>eating</i>,
+        <i>walking</i>.", "category": "new-verbs", "index": "30", "strength": 0, "title":
+        "Verbs: Gerund", "coords_y": 30, "coords_x": 3, "id": "c62f5c9f59fee23a07e998e033e0e205",
+        "learned": false, "show_strength_message": false, "icon_color": "red", "num_lexemes":
+        62, "num_missing": 62, "dependencies": ["Medical"], "known_lexemes": [], "words":
+        ["escrevendo", "comendo", "caminhando", "bebendo", "lendo", "dormindo", "nadando",
+        "vendo", "cozinhando", "correndo"], "short": "V. Gerund", "locked": true,
+        "name": "VERBS-GERUND", "language": "pt", "new_index": "52", "changed": false,
+        "progress_percent": 0, "mastered": false}, {"language_string": "Portuguese",
+        "dependencies_name": [], "disabled": false, "missing_lessons": 0, "url_title":
+        "Basics-1", "description": "Basic words and concepts to get you started, such
+        as <i>man</i> and <i>woman</i>.", "category": "new-useful-stuff", "index":
+        "0", "strength": 0.75, "title": "Basics 1", "coords_y": 1, "coords_x": 2,
+        "id": "051224e6e1ccb44ada4c0b0485e53635", "learned": true, "show_strength_message":
+        true, "icon_color": "blue", "num_lexemes": 22, "num_missing": 0, "dependencies":
+        [], "known_lexemes": ["955c040cc84408f9e687f99d4778b03b", "3e159ca2bdf07340a4d98d94dd0de032",
+        "213ad43df9831b7b21ca1d7d79f5d107", "26a160cb6964b488e182bb2cc9a1bf91", "48d47b9238eec5079758e71e45a9c136",
+        "c246f3dd7d96f167fe12a3f142b00e56", "8d7de359f302e3faa2943de5cf671dfe", "4937fee957d27374da32a2c89498b1fc",
+        "c7fbdb036c146c75c31bf4e6f7086196", "659f1c814823b16eb949905b77a1a198", "4d99f16b4bdd8cd0a8f5d962301a5be8",
+        "ba634cde4013c8ff4eee5892e92b3e5b", "7d73e4cc0e9b592b39a96849a806ba47", "3252eb10cf07c7beda2d1eeaf94f1e8d",
+        "ae28bc4c0c21361b5d7ffee94982eefa", "d341f239b325a4d562f5c56079f0bc79", "8a98793d6368aded8136b881ade78583",
+        "66de7b08cfb201e34d0ddadc60c28c70", "c2c4b64d5eefd5ab7d457ea5c27a25a1", "49e041609d5dd962692974eab8ed8ddf",
+        "0d4b9ed7df56ee57b0804160a4dd4672", "630b709686520fc4f0d0e6077df220c3"], "words":
+        ["o", "homem", "a", "mulher", "eu", "sou", "um", "uma", "menino", "menina"],
+        "short": "Basics 1", "locked": false, "name": "BASICS", "language": "pt",
+        "new_index": "1", "changed": false, "progress_percent": 100.0, "mastered":
+        true}, {"language_string": "Portuguese", "dependencies_name": ["ADJECTIVES2",
+        "PRONOUNS", "COUNTRIES"], "disabled": false, "missing_lessons": 7, "url_title":
+        "Education", "description": "Words related to education, such as <i>school</i>
+        or <i>student</i>.", "category": "new-vocabulary", "index": "46", "strength":
+        0, "title": "Education", "coords_y": 23, "coords_x": 2, "id": "eb3e27e95172aa3bff1ac582e9701ebf",
+        "learned": false, "show_strength_message": false, "icon_color": "red", "num_lexemes":
+        48, "num_missing": 48, "dependencies": ["Adjectives 2", "Pronouns", "Countries"],
+        "known_lexemes": [], "words": ["s\u00e9rie", "dicion\u00e1rio", "diploma",
+        "ensaio", "exame", "dever", "instru\u00e7\u00f5es", "idiomas", "li\u00e7\u00e3o",
+        "par\u00e1grafo"], "short": "Education", "locked": true, "name": "EDUCATION",
+        "language": "pt", "new_index": "23", "changed": false, "progress_percent":
+        0, "mastered": false}, {"language_string": "Portuguese", "dependencies_name":
+        ["VERBS-PAST-PERFECT"], "disabled": false, "missing_lessons": 9, "url_title":
+        "Abstract-Objects-2", "description": "More words that refer to ideas and concepts,
+        such as <i>beauty</i> and <i>loss</i>.", "category": "new-vocabulary", "index":
+        "27", "strength": 0, "title": "Abstract Objects 2", "coords_y": 28, "coords_x":
+        1, "id": "a50ca01d69821795c866253713f74e65", "learned": false, "show_strength_message":
+        false, "icon_color": "red", "num_lexemes": 65, "num_missing": 64, "dependencies":
+        ["Verbs: Past Perfect"], "known_lexemes": ["a21cb26d474149325101c1517bbca7b9"],
+        "words": ["inten\u00e7\u00f5es", "sensa\u00e7\u00f5es", "tom", "gesto", "influ\u00eancia",
+        "beleza", "rela\u00e7\u00f5es", "reuni\u00e3o", "unidades", "uni\u00e3o"],
+        "short": "Abs. Ob. 2", "locked": true, "name": "ABSTRACT-OBJECTS2", "language":
+        "pt", "new_index": "16", "changed": false, "progress_percent": 0, "mastered":
+        false}, {"language_string": "Portuguese", "dependencies_name": ["VERBS-PAST-PERFECT"],
+        "disabled": false, "missing_lessons": 9, "url_title": "Verbs:-Infinitive-2",
+        "description": "More about the infinitive form of actions, such as <i>to call</i>
+        and <i>to believe</i>.", "category": "new-verbs", "index": "25", "strength":
+        0, "title": "Verbs: Infinitive 2", "coords_y": 28, "coords_x": 3, "id": "3049f7dc20bb94350111a9a3aa12f817",
+        "learned": false, "show_strength_message": false, "icon_color": "blue", "num_lexemes":
+        62, "num_missing": 62, "dependencies": ["Verbs: Past Perfect"], "known_lexemes":
+        [], "words": ["chamar", "explicar", "estudar", "acreditar", "participar",
+        "reconhecer", "atuar", "pedir", "formar", "olhar"], "short": "V. Inf. 2",
+        "locked": true, "name": "VERBS-INFINITIVE2", "language": "pt", "new_index":
+        "53", "changed": false, "progress_percent": 0, "mastered": false}, {"language_string":
+        "Portuguese", "dependencies_name": ["VERBS-INFINITIVE", "DETERMINERS"], "disabled":
+        false, "missing_lessons": 10, "url_title": "Verbs:-Present-3", "description":
+        "More about the present tense of actions: <i>I return</i>, <i>you win</i>,
+        <i>they find</i>.", "category": "new-verbs", "index": "9", "strength": 0,
+        "title": "Verbs: Present 3", "coords_y": 20, "coords_x": 1, "id": "395b5e8232b7d5dabf3f7482fac3bcd7",
+        "learned": false, "show_strength_message": false, "icon_color": "green", "num_lexemes":
+        67, "num_missing": 61, "dependencies": ["Verbs: Infinitive 1", "Determiners"],
+        "known_lexemes": ["1b1c0be1c3615e0c34d4e33f37eed42f", "76e90c39115fc24846e17423bc8b723d",
+        "a3b3233a1c4f639723e92e153188341b", "ff6458211b1a54ab439194192b8a3a85", "4cfd18405d0e53f93182bd81ca5a334d",
+        "9dd9e2b9c234beb2a64b4dd324abff52"], "words": ["duvida", "salvo", "pe\u00e7o",
+        "continuo", "mistura", "recebe", "vivem", "exigem", "reconhece", "interessa"],
+        "short": "V. Pres. 3", "locked": true, "name": "VERBS-PRESENT3", "language":
+        "pt", "new_index": "5", "changed": false, "progress_percent": 0, "mastered":
+        false}, {"language_string": "Portuguese", "dependencies_name": ["BUSINESS",
+        "VERBS-SUBJUNCTIVE-PLUPERFECT"], "disabled": false, "missing_lessons": 3,
+        "url_title": "Spiritual", "description": "Words that describe spiritual, philosophical
+        concepts like <i>religion</i> or <i>soul</i>.", "category": "new-vocabulary",
+        "index": "47", "strength": 0, "title": "Spiritual", "coords_y": 38, "coords_x":
+        1, "id": "d69ac5229c182a955a58eb77ab479912", "learned": false, "show_strength_message":
+        false, "icon_color": "blue", "num_lexemes": 21, "num_missing": 21, "dependencies":
+        ["Business", "Verbs: Subjunctive Pluperfect"], "known_lexemes": [], "words":
+        ["vidas", "deus", "esp\u00edrito", "almas", "f\u00e9", "anjo", "religi\u00e3o",
+        "cat\u00f3lico", "religiosos", "gra\u00e7as"], "short": "Spiritual", "locked":
+        true, "name": "SPIRITUAL", "language": "pt", "new_index": "25", "changed":
+        false, "progress_percent": 0, "mastered": false}, {"language_string": "Portuguese",
+        "dependencies_name": ["VERBS-GERUND", "VERBS-FUTURE"], "disabled": false,
+        "missing_lessons": 10, "url_title": "Abstract-Objects-3", "description": "More
+        words that refer to ideas and concepts, such as <i>collection</i> and <i>evidence</i>.",
+        "category": "new-vocabulary", "index": "27", "strength": 0, "title": "Abstract
+        Objects 3", "coords_y": 31, "coords_x": 3, "id": "6a086dfe72c9a2f2f57e71efd25d02bb",
+        "learned": false, "show_strength_message": false, "icon_color": "red", "num_lexemes":
+        69, "num_missing": 68, "dependencies": ["Verbs: Gerund", "Verbs: Future"],
+        "known_lexemes": ["cdd1800fec13f135cc31a9d1a783979b"], "words": ["concurso",
+        "dificuldade", "normas", "execu\u00e7\u00e3o", "manuten\u00e7\u00e3o", "passo",
+        "considera\u00e7\u00f5es", "esquema", "transforma\u00e7\u00e3o", "inf\u00e2ncia"],
+        "short": "Abs. Ob. 3", "locked": true, "name": "ABSTRACT-OBJECTS3", "language":
+        "pt", "new_index": "16", "changed": false, "progress_percent": 0, "mastered":
+        false}, {"language_string": "Portuguese", "dependencies_name": ["TO-BE:-SER/ESTAR",
+        "PEOPLE"], "disabled": false, "missing_lessons": 2, "url_title": "Clitic-Pronouns",
+        "description": "Words that can substitute objects or people when the action
+        is performed on them, like <i>it</i> and <i>him</i> in <i>she gave it to him</i>.",
+        "category": "new-grammar", "index": "23", "strength": 0, "title": "Clitic
+        Pronouns", "coords_y": 18, "coords_x": 1, "id": "a4c6d55911764edf971d65cc0f2ec969",
+        "learned": false, "show_strength_message": false, "icon_color": "green", "num_lexemes":
+        11, "num_missing": 10, "dependencies": ["To Be: Ser/Estar", "People"], "known_lexemes":
+        ["fb50f4de39fd14ecee2b1e04cfd10928"], "words": ["o", "se", "me", "te", "nos",
+        "lhe", "lhes", "as", "a", "os"], "short": "Clitics", "locked": true, "name":
+        "PRONOUNS-DATIVE", "language": "pt", "new_index": "35", "changed": false,
+        "progress_percent": 0, "mastered": false}, {"language_string": "Portuguese",
+        "dependencies_name": ["NUMBERS", "PRONOUNS-DATIVE"], "disabled": false, "missing_lessons":
+        9, "url_title": "Verbs:-Infinitive-1", "description": "The infinitive form
+        of actions, such as <i>to eat</i> and <i>to walk</i>.", "category": "new-verbs",
+        "index": "25", "strength": 0, "title": "Verbs: Infinitive 1", "coords_y":
+        19, "coords_x": 3, "id": "599e33c2402693a203dba5c5242b7487", "learned": false,
+        "show_strength_message": false, "icon_color": "red", "num_lexemes": 63, "num_missing":
+        63, "dependencies": ["Numbers", "Clitic Pronouns"], "known_lexemes": [], "words":
+        ["quer", "comer", "beber", "estar", "ser", "dormir", "ter", "ver", "caminhar",
+        "ler"], "short": "V. Inf. 1", "locked": true, "name": "VERBS-INFINITIVE",
+        "language": "pt", "new_index": "52", "changed": false, "progress_percent":
+        0, "mastered": false}, {"language_string": "Portuguese", "dependencies_name":
+        ["PREPOSITIONS", "CONJUNCTIONS"], "disabled": false, "missing_lessons": 0,
+        "url_title": "Dates-and-Time", "description": "Words used to refer to date
+        and time, such as <i>tomorrow</i> and <i>January</i>.", "category": "new-vocabulary",
+        "index": "12", "strength": 0.5, "title": "Dates and Time", "coords_y": 10,
+        "coords_x": 2, "id": "ffa076e197937b99bb3e5feb1ed164d6", "learned": true,
+        "show_strength_message": true, "icon_color": "blue", "num_lexemes": 65, "num_missing":
+        0, "dependencies": ["Prepositions", "Conjunctions"], "known_lexemes": ["e44f3f20553dc6b97334e3c7cc574ced",
+        "8328751cf2a620eefcf55a2239111459", "0b9a284d61544740b9af9583472dfd47", "117511bb29d8f2137fcb66fb5591246b",
+        "b884f1437e30b189423cf3c52bf969e0", "e95d33fc49f2078253f4d8c5746d9f3f", "92bcbffac0a9be05f6a10a89a0feae1b",
+        "6b2bb7ca87c08ed3a0934708f58deac8", "13263060ceabe62314d3afd0ab0666cb", "a4c037145832a0045c65aa29fa5d7712",
+        "1a2fec39eeda97583dc3f50904dd3608", "1e702969bd14bd7349ef5d0a5796690c", "dd26005800152958b7b30a81bbc6754a",
+        "b16d86f3a506933ba25fa1d6af661168", "f783ff2d545a4e5185ee56f9c193acf2", "f03d923d45eba1ca9aa93da4f21500eb",
+        "b78d21f51b72524fbece00508163b192", "1792c0fa69410caac93e42aca424f3a7", "303266d9b3b2326cdc182ea67d3dd0cc",
+        "fe4ad605881d392eba74fdbe3e7fbe85", "88ddaf57ab676fa397b74df0ff3bdf4f", "514a7c9099397c65f452a5577228395d",
+        "d765c260202e1343e883d879b7b9073f", "184f82fedd609d787281efd0b348bfe4", "2f0185e9c68c5239b45440fbaa097dbf",
+        "8ee8a4e20c47cc9487d0421d1997b384", "519c93aba25f14f5ce601be8317da11b", "7f44fdc04db6099873f012507179aa25",
+        "4f5e585dee06f63db71e4deb576639de", "2d60215161a8cf7f618e65929ab7df9d", "914eb84d62eda87639b6fd21b99318e2",
+        "91a3e65a576d4c3f1058d312c30605b2", "4be21050205d6d08a09254f29040765e", "807f5de2a361a193c916a266792b3062",
+        "181491c5fb661fdd9d0452c497bbd011", "f61b5a8887cdd53df0ecc5dd1dc2239a", "c0bf567557ec955651d7c4b565524cd1",
+        "1260a92f82737a0cf4dc239935118b15", "12ca7b2b05f8ba144d476abb322c5199", "495531b39c4d6eac9fcff687c61b52d1",
+        "77558cdc57514d3cee64c06ade2c50c3", "4c67c6b5a696858dec54639e8da77a2e", "fbcc2718d88ff68858fe04163b6bb97f",
+        "d3f2fe509228c37db11fd915d20a4022", "fa1f16482288b0edd82f1417e3bc8cf3", "16724a33185868fac76fb558e75d741f",
+        "84ff1b1d14cfddfc867ffbe10e115263", "963ff8d7da2b3accc70d50ba3fd2f94d", "402eddfe6a31830138a80b77b35c6930",
+        "3eb2c5ab5f714f7cad2ccc06b7619146", "9ece1115e5aeb0c1d241da133359f874", "34e619c1e998075e5242a63fe280e55d",
+        "755f115f2650e61af6119c989cdfad1d", "a2bd56e94519624d74a04e9496da7e01", "d392d4bd62d466cbc225057bf5ca5a42",
+        "558fd58e45c344bac4b73a836c340956", "587a3cf757982592afd10d4d786ac4f9", "26df9c99dff16f17659da90da17089c9",
+        "a0e0bea737d8f10cca94ce44cd783ed0", "05b795514dfb3636e28e72dc62fe8b9f", "2a0b2fb9ae2d793b663bbe395798bd54",
+        "5de5f56f331312babc8995213bfa380a", "3222dc8c22626a341bf86214829e1a34", "740746bd8a17a6cd024036ce42c5e480",
+        "3461c9eeac906df9e997caba0fd79d05"], "words": ["ontem", "hoje", "amanh\u00e3",
+        "calend\u00e1rio", "segundas-feiras", "ter\u00e7a-feira", "quarta-feira",
+        "quintas-feiras", "sextas-feiras", "s\u00e1bados"], "short": "Time", "locked":
+        false, "name": "DATES-AND-TIME", "language": "pt", "new_index": "27", "changed":
+        false, "progress_percent": 100.0, "mastered": true}, {"language_string": "Portuguese",
+        "dependencies_name": ["VERBS-FUTURE-PHRASAL"], "disabled": false, "missing_lessons":
+        10, "url_title": "Adjectives-2", "description": "More words that describe
+        qualities of objects, such as <i>popular</i> and <i>strong</i>.", "category":
+        "new-grammar", "index": "15", "strength": 0, "title": "Adjectives 2", "coords_y":
+        22, "coords_x": 2, "id": "b3372c567badac5e8f6fc404d5023467", "learned": false,
+        "show_strength_message": false, "icon_color": "red", "num_lexemes": 69, "num_missing":
+        69, "dependencies": ["Verbs: Phrasal Future Tense"], "known_lexemes": [],
+        "words": ["direta", "original", "universal", "m\u00e1ximo", "intelectual",
+        "independente", "global", "m\u00faltiplas", "ideal", "comerciais"], "short":
+        "Adject. 2", "locked": true, "name": "ADJECTIVES2", "language": "pt", "new_index":
+        "43", "changed": false, "progress_percent": 0, "mastered": false}, {"language_string":
+        "Portuguese", "dependencies_name": ["DATES-AND-TIME"], "disabled": false,
+        "missing_lessons": 0, "url_title": "Family", "description": "Words that express
+        familiar relations, such as <i>mother</i> and <i>uncle</i>.", "category":
+        "new-vocabulary", "index": "13", "strength": 0.5, "title": "Family", "coords_y":
+        11, "coords_x": 1, "id": "7cabdf5abbf6bfa2692722cae48a3329", "learned": true,
+        "show_strength_message": true, "icon_color": "blue", "num_lexemes": 18, "num_missing":
+        0, "dependencies": ["Dates and Time"], "known_lexemes": ["1660d9229e9306972d17eeb3809cc5cd",
+        "9266177fcd30604a107d4e6b9dd3076c", "8ea32937d1fa8dbd29d7f802a7022512", "2a34b51010a434b99ec66a031881d767",
+        "72f893ae0f5014084113ba26400210d6", "e8d7db7f8631c4fd9daefdcd98885418", "a796f6bc66521e6107c4c3efb8913fec",
+        "9d2e3b825fb1164ad0bf87db2f53d3e5", "40ffc1c5c0bb9f9042e0ad0729be9f90", "c248371f3558994a7271c84d1ba1ffbc",
+        "ddd74fb2d301876efe1d6a8f8c7a0a55", "49b5805748c5a19923ec15ba6945a74f", "e741ecfe704888b5dbec564e6e8a13c4",
+        "53b843efbe42c1eba3e2697efbb70618", "f5cb2dd063fb740490dbe4ae273dd7aa", "c2aa4838a9d49ad51921c16cd19eafa3",
+        "7783739b4f60fef64e1d1dbe67fa8737", "5f372f231c12a7c944ffbd7a8093e081"], "words":
+        ["m\u00e3e", "pai", "filhas", "irm\u00e3o", "esposo", "tio", "fam\u00edlia",
+        "marido", "mam\u00e3e", "papai"], "short": "Family", "locked": false, "name":
+        "FAMILY", "language": "pt", "new_index": "29", "changed": false, "progress_percent":
+        100.0, "mastered": true}, {"language_string": "Portuguese", "dependencies_name":
+        ["VERBS-PAST-IMPERFECT", "VERBS-SUBJUNCTIVE-PAST"], "disabled": false, "missing_lessons":
+        8, "url_title": "Business", "description": "Words used in business, such as
+        <i>price</i> and <i>contract</i>.", "category": "new-vocabulary", "index":
+        "43", "strength": 0, "title": "Business", "coords_y": 37, "coords_x": 1, "id":
+        "dd0c5765c1b2d932e3b31fb51311e654", "learned": false, "show_strength_message":
+        false, "icon_color": "green", "num_lexemes": 58, "num_missing": 58, "dependencies":
+        ["Verbs: Past Imperfect", "Verbs: Subjunctive Past"], "known_lexemes": [],
+        "words": ["oferta", "neg\u00f3cio", "contratos", "interesses", "taxa", "com\u00e9rcio",
+        "pre\u00e7o", "ind\u00fastria", "vendas", "d\u00edvida"], "short": "Business",
+        "locked": true, "name": "BUSINESS", "language": "pt", "new_index": "31", "changed":
+        false, "progress_percent": 0, "mastered": false}, {"language_string": "Portuguese",
+        "dependencies_name": ["NUMBERS", "PRONOUNS-DATIVE"], "disabled": false, "missing_lessons":
+        2, "url_title": "Determiners", "description": "Words that establish the reference
+        or relative location of objects such as <i>this</i>, <i>that</i> and <i>each</i>.",
+        "category": "new-grammar", "index": "22", "strength": 0, "title": "Determiners",
+        "coords_y": 19, "coords_x": 1, "id": "feac546e42a499fdf10c04b7dd04167e", "learned":
+        false, "show_strength_message": false, "icon_color": "red", "num_lexemes":
+        13, "num_missing": 12, "dependencies": ["Numbers", "Clitic Pronouns"], "known_lexemes":
+        ["84d4bde43effad4c641109dd5d13fe5e"], "words": ["esse", "estes", "uma", "aquela",
+        "estas", "toda", "qualquer", "nenhum", "algum", "cada"], "short": "Determin.",
+        "locked": true, "name": "DETERMINERS", "language": "pt", "new_index": "40",
+        "changed": false, "progress_percent": 0, "mastered": false}, {"language_string":
+        "Portuguese", "dependencies_name": ["OBJECTS", "PLACES"], "disabled": false,
+        "missing_lessons": 2, "url_title": "To-Be:-Ser_Estar", "description": "The
+        verb <i>to be</i>, which in Portuguese is split into <i>ser</i> and <i>estar</i>,
+        depending on how permanent the state of being is.", "category": "new-verbs",
+        "index": "19", "strength": 0, "title": "To Be: Ser/Estar", "coords_y": 17,
+        "coords_x": 1, "id": "675e25a8b718af1d4e9a722400c22c4d", "learned": false,
+        "show_strength_message": false, "icon_color": "blue", "num_lexemes": 10, "num_missing":
+        5, "dependencies": ["Objects", "Places"], "known_lexemes": ["7e42f7dece8964713da3a3d797d672b9",
+        "c246f3dd7d96f167fe12a3f142b00e56", "0dd6934ef0f42a5151850fa8ca018c2c", "0b2e8ac77d30fa3618d3fa68a99df48b",
+        "ba634cde4013c8ff4eee5892e92b3e5b"], "words": ["estamos", "estou", "est\u00e1s",
+        "est\u00e3o", "est\u00e1", "somos", "sou", "\u00e9s", "s\u00e3o", "\u00e9"],
+        "short": "To Be", "locked": true, "name": "TO-BE:-SER/ESTAR", "language":
+        "pt", "new_index": "37", "changed": false, "progress_percent": 0, "mastered":
+        false}, {"language_string": "Portuguese", "dependencies_name": ["SCIENCE",
+        "VERBS-SUBJUNCTIVE-PRESENT"], "disabled": false, "missing_lessons": 8, "url_title":
+        "Verbs:-Conditional", "description": "The conditional tense of actions, such
+        as <i>he would say</i>.", "category": "new-verbs", "index": "40", "strength":
+        0, "title": "Verbs: Conditional", "coords_y": 33, "coords_x": 1, "id": "3137aaa2c9d69c0400193a7daeda9bad",
+        "learned": false, "show_strength_message": false, "icon_color": "green", "num_lexemes":
+        58, "num_missing": 58, "dependencies": ["Science", "Verbs: Subjunctive Present"],
+        "known_lexemes": [], "words": ["seria", "estar\u00edamos", "comeria", "beberia",
+        "acharia", "aconteceria", "haveria", "tiraria", "lembraria", "conversaria"],
+        "short": "V. Cond.", "locked": true, "name": "VERBS-CONDITIONAL", "language":
+        "pt", "new_index": "5", "changed": false, "progress_percent": 0, "mastered":
+        false}, {"language_string": "Portuguese", "dependencies_name": ["VERBS-CONDITIONAL-PERFECT"],
+        "disabled": false, "missing_lessons": 6, "url_title": "Communication", "description":
+        "Words about communication, such as <i>conversation</i> and <i>message</i>.",
+        "category": "new-vocabulary", "index": "44", "strength": 0, "title": "Communication",
+        "coords_y": 35, "coords_x": 1, "id": "f5195d13319476ba9100d6cbef86d0ab", "learned":
+        false, "show_strength_message": false, "icon_color": "red", "num_lexemes":
+        43, "num_missing": 42, "dependencies": ["Verbs: Conditional Perfect"], "known_lexemes":
+        ["64abbf01e0c6ad84b326a429a9d805ab"], "words": ["conversa", "imprensa", "palavra",
+        "artigos", "linguagem", "telefonema", "mensagem", "not\u00edcia", "argumento",
+        "segredo"], "short": "Communic.", "locked": true, "name": "COMMUNICATION",
+        "language": "pt", "new_index": "30", "changed": false, "progress_percent":
+        0, "mastered": false}, {"language_string": "Portuguese", "dependencies_name":
+        ["VERBS-FUTURE-PHRASAL"], "disabled": false, "missing_lessons": 4, "url_title":
+        "Pronouns", "description": "Words that can substitute objects or people, such
+        as <i>something</i> and <i>someone</i>.", "category": "new-grammar", "index":
+        "26", "strength": 0, "title": "Pronouns", "coords_y": 22, "coords_x": 1, "id":
+        "4e60ac8bd7cfc0d5e3da528381411563", "learned": false, "show_strength_message":
+        false, "icon_color": "green", "num_lexemes": 26, "num_missing": 23, "dependencies":
+        ["Verbs: Phrasal Future Tense"], "known_lexemes": ["163bf54acfdc3fdb3963685de2d1e597",
+        "33d56d0d39d9e064995e83692bc331cb", "54c6c6879edb0e7abd54b736079f635f"], "words":
+        ["ti", "uns", "esse", "comigo", "como", "si", "contigo", "quantos", "conosco",
+        "qual"], "short": "Pronouns", "locked": true, "name": "PRONOUNS", "language":
+        "pt", "new_index": "35", "changed": false, "progress_percent": 0, "mastered":
+        false}, {"language_string": "Portuguese", "dependencies_name": ["FAMILY",
+        "SIZES"], "disabled": false, "missing_lessons": 0, "url_title": "Occupations",
+        "description": "Words that express people''s jobs, such as <i>teacher</i>
+        and <i>doctor</i>.", "category": "new-vocabulary", "index": "14", "strength":
+        0.5, "title": "Occupations", "coords_y": 12, "coords_x": 2, "id": "50dc76d8233a757a333cdab03314a3bd",
+        "learned": true, "show_strength_message": true, "icon_color": "red", "num_lexemes":
+        56, "num_missing": 0, "dependencies": ["Family", "Sizes"], "known_lexemes":
+        ["fc66918f6eb8ad8abd9d173738b390d2", "3844b5fe9d7f47b06e1c0fc3e4013a65", "31312336e94a96c37b674d784df6ddde",
+        "9eae009279f0564e28eba3f26e8e88dd", "43e0197f202e76586ba3a3f304fea5b6", "b178107c97a6d9f3fcf7053485084b6e",
+        "0f29b2b6343f3482783ffdbff9274e6f", "41427a7578ead9a90f80ce422b9b1cc3", "911da28b1817e75b6763a49741ccdeb6",
+        "5105e2f853e2dfdf3169eaf51208fe4c", "cbbe34888c2768d28ef819178f96acf7", "7708b81ac1f04156af85303e2d8e1ad5",
+        "960fdb2c2d1b630c96ac9da441ea2738", "ec1d811aa346e584c1c66eeadd34a413", "5024a7dbcefa23c6437b9a860d6c3329",
+        "6eb94b99b8ab633de12bb6021c003b97", "4323168aa982845ffb4ca5558770bc12", "f952405fa486ebd609cf8c45168d3a7e",
+        "c77e16eaade08d655246e1e58f8ab9fc", "12d933687cc817fa1f559f787d7fd870", "301f0086b8791b0f0af39235a09aeff4",
+        "04021d6be8a45aae4fb193f887c4c822", "626a377033e6ff3afb48a31234c57040", "93148cddec13e1d367358aeaf3571f80",
+        "82fbf39dccf0bc1b0f8c9a6f297973ba", "e206642912c538bbde3f35cec40563cb", "ea5d266ab39313c2b1530af1f757f6ac",
+        "bbb0362503d69350dce1ba31df52732d", "a52ea4e9c1a49ec0d4e3f7f2e40e7ca1", "636b333959654893c7d3774b2007975e",
+        "343fa9008993667b0c25da676edc3923", "139693db77b68aa331c77a209e7cf5b8", "3162fde371ee8681fd4927fabc6ce6ec",
+        "b6d8ef7636736590128007592ce8fbea", "2fa7110c8ef01c29d89a54ceb1af7370", "c29f0e92ff971c4d02fbfc467959df63",
+        "554ffd54ca3496f428861f1dfaf60e85", "08ebd1915022b81db370ae6e796693f3", "4ba539fadd4356ac228e5f1361583ca9",
+        "66306e9f72a68032dc23db93a172a559", "27d9f997cae0bb0dfbcbd325b371d530", "9707189601740c1df86c7bf7a0766d16",
+        "2ec790407088b12f6228dfbea0d18f12", "bafcb22779b5a5d061ee9df1076e398b", "a963a058316d485785bbe584d6130eb5",
+        "f49bf8d454487a16582da1bd30ec528b", "629786fb88d9677b38e1e4ba903c3f4d", "893e1d51892b00a22363654e5ae78afb",
+        "3adfe335db65ee55e3ccbf21c7d40b16", "e02c45ea37597b3e13308eab684c39cc", "117daa64cae40f14a333c194b5ac51bd",
+        "f3768a118eb687d4430474677468ba6c", "003ab15ce1b36077d97deadc11e47508", "d2c9e27f8b7d13e1b4f11ff23445870c",
+        "d1b8b7bd1fba13b7c61290d8393ff8ea", "c2fe50bb67b515c1dfd8df7e1fe5281a"], "words":
+        ["maestro", "estudantes", "doutores", "diretora", "pol\u00edcia", "chefe",
+        "reis", "secret\u00e1ria", "autor", "autoridades"], "short": "Occupation",
+        "locked": false, "name": "OCCUPATIONS", "language": "pt", "new_index": "46",
+        "changed": false, "progress_percent": 100.0, "mastered": true}, {"language_string":
+        "Portuguese", "dependencies_name": ["BASICS"], "disabled": false, "missing_lessons":
+        0, "url_title": "Common-Phrases", "description": "Useful common phrases, such
+        as <i>hello</i> and <i>thank you</i>.", "category": "new-useful-stuff", "index":
+        "1", "strength": 0.75, "title": "Common Phrases", "coords_y": 2, "coords_x":
+        3, "id": "711776996b8416f8281b7eefe2c1b69a", "learned": true, "show_strength_message":
+        true, "icon_color": "green", "num_lexemes": 20, "num_missing": 0, "dependencies":
+        ["Basics 1"], "known_lexemes": ["6b8a484698c909ab6da1bb2aa496c9d8", "2752a9b6227abb16a71f6f168c397ffc",
+        "25ca54f8ef38af433312b0245e259f65", "5ee09868044c367bad6e42b52695ff67", "6b80d816698b0e53db2e1412761eb45d",
+        "2b4b2568171ac6cb9b586f5d3a7d04fd", "ee746f741732a178429ce4ac7a7b5e81", "936179b757869e291576f2a3598e97fe",
+        "13760c85acc59564708f27f8aca1790d", "8ed75c547c14e483449b60747c26c680", "a7951be55be8842d934f037d042bf92d",
+        "6c2e9bbccc20e7e462b4027a704f587f", "cdf7ac034a4053436d2fce255ca74779", "990c89aba5f77297866df927cafc1a1d",
+        "6c767e40f11a75a724aad8978ad1c31f", "58c33eb1d06396dd12f4a1224087137e", "3df55164930a6ebc1f38c847c2906400",
+        "3f166554b34c1199d364151ba1ab18a9", "ed6bd235cb1420baeb7c4e73a6b4ad86", "bd9c03619890797852d573b6f877743a"],
+        "words": ["oi", "tchau", "obrigado", "obrigada", "sim", "n\u00e3o", "favor",
+        "dia", "tarde", "noite"], "short": "Phrases", "locked": false, "name": "COMMON-PHRASES",
+        "language": "pt", "new_index": "48", "changed": false, "progress_percent":
+        100.0, "mastered": true}, {"language_string": "Portuguese", "dependencies_name":
+        ["ADJECTIVES"], "disabled": false, "missing_lessons": 10, "url_title": "Adverbs",
+        "description": "Words that describe qualities of actions, such as <i>quickly</i>.",
+        "category": "new-grammar", "index": "16", "strength": 0.0, "title": "Adverbs",
+        "coords_y": 15, "coords_x": 3, "id": "4a91276417ed5a111a5177e1f845494c", "learned":
+        false, "show_strength_message": false, "icon_color": "red", "num_lexemes":
+        66, "num_missing": 66, "dependencies": ["Adjectives 1"], "known_lexemes":
+        [], "words": ["muito", "tanto", "pouco", "ali", "cedo", "especialmente", "somente",
+        "aonde", "atualmente", "praticamente"], "short": "Adverbs", "locked": false,
+        "name": "ADVERBS", "language": "pt", "new_index": "47", "changed": false,
+        "progress_percent": 0.0, "mastered": false}, {"language_string": "Portuguese",
+        "dependencies_name": ["BUSINESS", "VERBS-SUBJUNCTIVE-PLUPERFECT"], "disabled":
+        false, "missing_lessons": 9, "url_title": "Politics", "description": "Words
+        used in politics and government, such as <i>economy</i> and <i>democracy</i>.",
+        "category": "new-vocabulary", "index": "36", "strength": 0, "title": "Politics",
+        "coords_y": 38, "coords_x": 3, "id": "d16efa57d518fbdc307b43b1179ae115", "learned":
+        false, "show_strength_message": false, "icon_color": "green", "num_lexemes":
+        65, "num_missing": 64, "dependencies": ["Business", "Verbs: Subjunctive Pluperfect"],
+        "known_lexemes": ["6b08ae350acff720c37fa23ccd828d00"], "words": ["governo",
+        "presidente", "guerra", "ministra", "seguran\u00e7a", "pol\u00edtica", "congresso",
+        "justi\u00e7a", "minist\u00e9rio", "ex\u00e9rcito"], "short": "Politics",
+        "locked": true, "name": "POLITICS", "language": "pt", "new_index": "11", "changed":
+        false, "progress_percent": 0, "mastered": false}, {"language_string": "Portuguese",
+        "dependencies_name": ["VERBS-FUTURE-PHRASAL"], "disabled": false, "missing_lessons":
+        2, "url_title": "Countries", "description": "Words used to refer to countries
+        and the people from them.", "category": "new-vocabulary", "index": "17", "strength":
+        0, "title": "Countries", "coords_y": 22, "coords_x": 3, "id": "9d05a3b8964b4b467635926e54b8d0bf",
+        "learned": false, "show_strength_message": false, "icon_color": "green", "num_lexemes":
+        15, "num_missing": 15, "dependencies": ["Verbs: Phrasal Future Tense"], "known_lexemes":
+        [], "words": ["espanhol", "europeu", "norte-americana", "francesa", "chinesa",
+        "argentino", "mexicana", "italiana", "americano", "brit\u00e2nica"], "short":
+        "Countries", "locked": true, "name": "COUNTRIES", "language": "pt", "new_index":
+        "19", "changed": false, "progress_percent": 0, "mastered": false}, {"language_string":
+        "Portuguese", "dependencies_name": ["BASICS2", "COMMON-PHRASES"], "disabled":
+        false, "missing_lessons": 0, "url_title": "Food", "description": "Words that
+        refer to common foods and drinks, such as <i>water</i> and <i>rice</i>.",
+        "category": "new-vocabulary", "index": "2", "strength": 0.75, "title": "Food",
+        "coords_y": 3, "coords_x": 2, "id": "20d5bade223281b082c91c40edab607f", "learned":
+        true, "show_strength_message": true, "icon_color": "red", "num_lexemes": 34,
+        "num_missing": 0, "dependencies": ["Basics 2", "Common Phrases"], "known_lexemes":
+        ["826245ea3f47e631e00d4009aa7a57c7", "784042a9bc442c50b735fcb81859dc18", "494d3bd42e8428759b7cd164d881b1f0",
+        "38e25ada70b5c3b8d7dedf4e5d0625fe", "5a10a9ab9b11f8faefe13c32fe55fa95", "6baabb50722a990d38b5221c48b16683",
+        "df4c239e57075ba1fe396e239c068811", "76ca65eb1acfd10a5401dbfd549efa22", "14555e6831edb6baab9a39991fc68a19",
+        "4d4f0ecc3c25350f7c988e8b4eb1956d", "2a589f70964d7ee8bf335eaed69cbc2e", "46e1ef919491760501522dac4827bbcf",
+        "2ac0aad463cf10c1f359f1678c1f38f2", "cb2125848602cd4d35397caf86af9cd8", "bcaf0802d51bec227e82e457cb03577d",
+        "8414835cb39e4315146a59fefdd6d1c6", "52d634d0d04cdebc4265d5f9c2f1d78e", "61390f111c3899a0f38c0b2e586d241b",
+        "4a93acdbafaa061fd69226cf686d7a2b", "9f066b7f627d88aefd887bc067f4ba26", "0db9e3b501108f13924dfacff858f7f2",
+        "964918b64d9d9e8abda62b08e5293da9", "d8686386d3b9dd78e3e13beb462313e4", "cbdab85bc61592bf4279db56ff35a695",
+        "899be018a5e3defdcbf5f728a54c529b", "4b3df2ebedd7644b3150c27e42487633", "2f3f88cef849e6a148c1880373e98627",
+        "25243b9871667b5a73891ef25d25b352", "04cf81e128cb8af72084c74d285d161e", "1715af4eb439a9d3c24ce4899f628d13",
+        "fd840152e853feb97f262513fe399e81", "a2c4248af2741dd931b8f0364754a721", "3046c4e0d8b30be3785fe250b2a339e1",
+        "282dc399cdee4908358bc58a02cf36ce"], "words": ["comemos", "comem", "cozinho",
+        "molho", "banana", "amargo", "ferve", "garrafa", "almo\u00e7o", "manteiga"],
+        "short": "Food", "locked": false, "name": "FOOD", "language": "pt", "new_index":
+        "3", "changed": false, "progress_percent": 100.0, "mastered": true}, {"language_string":
+        "Portuguese", "dependencies_name": ["FOOD"], "disabled": false, "missing_lessons":
+        0, "url_title": "Food-2", "description": "Words that refer to common foods
+        and drinks, such as <i>soup</i> and <i>onion</i>.", "category": "new-vocabulary",
+        "index": "2", "strength": 0.75, "title": "Food 2", "coords_y": 4, "coords_x":
+        3, "id": "4dccdd4c3aae64d088f445eebe838033", "learned": true, "show_strength_message":
+        true, "icon_color": "red", "num_lexemes": 35, "num_missing": 0, "dependencies":
+        ["Food"], "known_lexemes": ["3ea77aeae0cceaea2fa8442cf4ed4520", "67570b57ae4489b8b830bebda0b0e637",
+        "4375d38cf72bd1b9161a835b750ec074", "b2d23288ff0972123a68769dd30727eb", "8ed969fefa0922a6b38d6a9ed7c20d3b",
+        "1bece19a78aa1e4bc6a60f8f3a586d8f", "c042fef9ce16f46fadaac4e9f8c57192", "9a7646c5474cd41f03ba9fa02adffc89",
+        "4659ea475c0c2203d103e1729ad4a44c", "e2d83347907f044f78e08aa3c2e3fa9d", "0e1458d36f4884708e55b4e65d8708eb",
+        "e04cc17ae5d2d9db000f1cdda4be2635", "2639dde8b8d3c2e9460171ad22320b28", "5d219cf750f8649347778329d8120469",
+        "6c5ab64f598f2d0e41c6e2032ff18faf", "1c57d56adf7785f7d386c522d8f25270", "135af59e3ca6df97d2b65c3023a03cdd",
+        "d5019761c2d33e3d0f506069fa86c0e5", "11596d937b214beff5a6fec0a37a8ecc", "ed9a466bfe4a5c9b563867c72adccba8",
+        "798488a04b86901f41a9bab965eefe90", "6fe8f0879c37273b92feec5da3d72e82", "347efefc2fa924b5274af5d8431b629b",
+        "a41105356f326ae1a5d1d499f798d4e4", "a07ffcbe73dc40ab8882f3ebd0588268", "799b6b2657e6f9e22a97eca4d4a31130",
+        "ab8d7d818b2879dcd636303b72059430", "085470e30a750ba2a072847672e6d3c8", "fe5c0cd299c6c28360e92a852843c028",
+        "1bc30b0015e62fd4b43a3fb59ad0a8ed", "14bdb1c3d7e33b16ae243b1b7c38ab36", "240c2a3ddb02ff4a6ffc2992a6d07fad",
+        "99799f8b6b58349afb4c631ffc80ec18", "120a3129d32030a0b43c3ed6bb143dee", "3b26240699ee5102e4eee40a59cccb34"],
+        "words": ["cozinha", "faca", "limonada", "lim\u00e3o", "comida", "refei\u00e7\u00e3o",
+        "carne", "cebola", "laranja", "massa"], "short": "Food 2", "locked": false,
+        "name": "FOOD2", "language": "pt", "new_index": "3", "changed": false, "progress_percent":
+        100.0, "mastered": true}, {"language_string": "Portuguese", "dependencies_name":
+        ["EDUCATION"], "disabled": false, "missing_lessons": 2, "url_title": "Verbs:-Participle",
+        "description": "The participle tense of actions, such as <i>eaten</i> in <i>I
+        have eaten</i>.", "category": "new-verbs", "index": "28", "strength": 0, "title":
+        "Verbs: Participle", "coords_y": 24, "coords_x": 1, "id": "0f213a13af72953c6544a1756c518dca",
+        "learned": false, "show_strength_message": false, "icon_color": "blue", "num_lexemes":
+        10, "num_missing": 10, "dependencies": ["Education"], "known_lexemes": [],
+        "words": ["pagos", "feito", "conhecidas", "seguidas", "detidas", "sentado",
+        "publicada", "dedicada", "relacionados", "ferida"], "short": "V. Partic.",
+        "locked": true, "name": "VERBS-PARTICIPLE", "language": "pt", "new_index":
+        "53", "changed": false, "progress_percent": 0, "mastered": false}, {"language_string":
+        "Portuguese", "dependencies_name": ["TO-BE:-SER/ESTAR", "PEOPLE"], "disabled":
+        false, "missing_lessons": 7, "url_title": "Numbers", "description": "Words
+        that refer to numbers, such as <i>one</i> and <i>five</i>.", "category": "new-vocabulary",
+        "index": "21", "strength": 0, "title": "Numbers", "coords_y": 18, "coords_x":
+        3, "id": "0bbc183e421bd50ff257edd5ab25e715", "learned": false, "show_strength_message":
+        false, "icon_color": "blue", "num_lexemes": 47, "num_missing": 47, "dependencies":
+        ["To Be: Ser/Estar", "People"], "known_lexemes": [], "words": ["uma", "dois",
+        "tr\u00eas", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez"], "short":
+        "Numbers", "locked": true, "name": "NUMBERS", "language": "pt", "new_index":
+        "22", "changed": false, "progress_percent": 0, "mastered": false}, {"language_string":
+        "Portuguese", "dependencies_name": ["VERBS-PRESENT"], "disabled": false, "missing_lessons":
+        0, "url_title": "Prepositions", "description": "Words to express relations
+        between phrases and their complements or modifiers, such as <i>in</i>, <i>of</i>
+        and <i>for</i>.", "category": "new-grammar", "index": "11", "strength": 0.5,
+        "title": "Prepositions", "coords_y": 9, "coords_x": 3, "id": "0fee4ae31fc606e7e0d688f019e26ce8",
+        "learned": true, "show_strength_message": true, "icon_color": "blue", "num_lexemes":
+        58, "num_missing": 0, "dependencies": ["Verbs: Present 1"], "known_lexemes":
+        ["0aabb7dc13f4b84e878edb2221b27915", "77203439fcfa49c0d62c5186173c84cf", "8e1ffa75ba819f17de8c4e84d5e8b484",
+        "2fc99353364e5826e8fb20a28ae8a82b", "8b9791a0ef33351c5b827c1facad6cab", "766ad8a47bf463550c2d1473e4ab2d6d",
+        "ac84f2decc32a57dcb3c5ef48188384f", "c4bc57dbb65b2c08642d023bc7732594", "4b4a0cad45da4708c87e82d31f3dea99",
+        "7044fa3499b41303ca05c568e9ed65bd", "259687166d828a327aab54173e7d2ff2", "1405927b2850e6eef68ca46961c3a8d4",
+        "16474ee6713a40c6407a8a86ce7cd71c", "d7df3b58fb0dcb3624c181995c2eadac", "67db35f46f7542a59635b070d9295a69",
+        "85d90492260ca9466ee2eac8d3b56976", "5c3c6b6742d4545e11ff1025864cd850", "efb22b3059e56f3d07ee3ccbc94fd9bd",
+        "a939693d309a9bd7c0cab3c667e2f2c9", "83dc74688f969d7cde8a92352fea6a99", "d836c4480d683341b78689c1458a912b",
+        "968470bca1e2a318a99ce68ee708154b", "cb298e9b016ec728c76e413784ffb703", "24b62faac04ad1426d00d479e5195de6",
+        "d83578207f2dbf2a4c10731fd0782b35", "883d97d05c985bce50c081edd3f10a58", "216496b43d60de35efe9fd24a133157d",
+        "c0c6387fa7cb2a162f8595d70c8c910b", "bcc40876181553a171fbc93e9f543f85", "065c4529ba16abf985e734a7968d64a0",
+        "aa136886632f6e02b3d7babebbef2d6e", "4b956b74cc55ed2933f8fbab8259128a", "ce68a855ca640941119ba662ab5ff564",
+        "27eb1a8dc370e269679aa816d4214bfd", "2de0f3fa60c174cc93c2c92e29446826", "5f82c568adeb26db8271508950da4b0c",
+        "71fed6fc50077ce201770f41e265054d", "68520e0e0186aad33b2ee219fd259152", "3a0abeb8bf14808ca39c389955e668c9",
+        "1445d9d6f1ed57553d0f457b7531f2b1", "cca7fe06f995114d5b47f90c67bc976a", "0738832933132bd3bd6174a5010de80e",
+        "1388c9828f408b1f9d1d850523d6b290", "ed334e0e684708b0a8a770bdd7b82ef8", "b712e220fd3eec7f5010b2e9a69bc21d",
+        "c8a0b80bf3e1449597d13282e351c749", "9e0893bcfc6d73adb82afc03a51c1451", "97b13f63a3db493af59b03f4ae974f8e",
+        "d94f5184a0dc20d22ebceefe11b66950", "198cdd0e57c4c9253faef8608a207f10", "bc8e6758352ebb324f21a18adba222f7",
+        "80bbc18ce67903b3b5f9f3c2facff84e", "826a902bc42b3ac85918087164174ab0", "e53d8ab35be3575d05d07bfb813a4fb3",
+        "2d31fcb7e3781d53d073d32874dcb5f4", "c9cb6b63130f2106c3923796e5bf206b", "21c8cde3f6c85e3c10e2c34fa22a98b7",
+        "036c4c25cb7b11f30cccc9152c85a6ce"], "words": ["do", "da", "ao", "\u00e0",
+        "dos", "das", "pela", "apesar", "pelo", "nos"], "short": "Prep.", "locked":
+        false, "name": "PREPOSITIONS", "language": "pt", "new_index": "14", "changed":
+        false, "progress_percent": 100.0, "mastered": true}, {"language_string": "Portuguese",
+        "dependencies_name": ["CLOTHING"], "disabled": false, "missing_lessons": 0,
+        "url_title": "Questions", "description": "Basic structure and words for asking
+        questions.", "category": "new-grammar", "index": "8", "strength": 0.5, "title":
+        "Questions", "coords_y": 7, "coords_x": 1, "id": "d82b51d7cab5abe98aef98a6f651c0a2",
+        "learned": true, "show_strength_message": true, "icon_color": "blue", "num_lexemes":
+        9, "num_missing": 0, "dependencies": ["Clothing"], "known_lexemes": ["527fae6cb0075a56ce0648ceb292bc55",
+        "c214fbc04cd7de1edeb086373ccfa292", "d83c6e32c9bfd762be9f2fdcca6586c4", "1596184f38614d12761cf6d87c9c86cc",
+        "460557b60caed60924e0191342faced6", "173bc5bae51dab81ae2cb8fb09db09bf", "3b90f64dfa33918b221e0aabd249dc75",
+        "3e8be2fcec6d227762088cda8fc15733", "9b00480041dadd36404f2486050810d6"], "words":
+        ["quais", "qu\u00ea", "quantos", "respostas", "como", "pergunta", "quando",
+        "onde", "quem"], "short": "Questions", "locked": false, "name": "QUESTIONS",
+        "language": "pt", "new_index": "24", "changed": false, "progress_percent":
+        100.0, "mastered": true}, {"language_string": "Portuguese", "dependencies_name":
+        ["OBJECTS", "PLACES"], "disabled": false, "missing_lessons": 7, "url_title":
+        "People", "description": "Words that refer to people, such as <i>boyfriend</i>
+        and <i>mister</i>.", "category": "new-vocabulary", "index": "20", "strength":
+        0, "title": "People", "coords_y": 17, "coords_x": 3, "id": "04767d507abbd04d84dee156dbd84913",
+        "learned": false, "show_strength_message": false, "icon_color": "green", "num_lexemes":
+        50, "num_missing": 49, "dependencies": ["Objects", "Places"], "known_lexemes":
+        ["26f723d783f5fb0e3d4158ff520a9191"], "words": ["amiga", "noivo", "pessoa",
+        "gente", "senhora", "comiss\u00e3o", "popula\u00e7\u00e3o", "cultura", "associa\u00e7\u00e3o",
+        "revolu\u00e7\u00e3o"], "short": "People", "locked": true, "name": "PEOPLE",
+        "language": "pt", "new_index": "35", "changed": false, "progress_percent":
+        0, "mastered": false}, {"language_string": "Portuguese", "dependencies_name":
+        ["VERBS-INFINITIVE", "DETERMINERS"], "disabled": false, "missing_lessons":
+        10, "url_title": "Verbs:-Past", "description": "The past tense of actions:
+        <i>I ate</i>, <i>you drank</i>, <i>they walked</i>.", "category": "new-verbs",
+        "index": "24", "strength": 0, "title": "Verbs: Past", "coords_y": 20, "coords_x":
+        2, "id": "c5773cd1c9527d2abe7dc54502142aa0", "learned": false, "show_strength_message":
+        false, "icon_color": "green", "num_lexemes": 71, "num_missing": 71, "dependencies":
+        ["Verbs: Infinitive 1", "Determiners"], "known_lexemes": [], "words": ["comi",
+        "beberam", "estivemos", "fomos", "falou", "gostou", "choveu", "tocamos", "ouviu",
+        "vimos"], "short": "V. Past", "locked": true, "name": "VERBS-PAST", "language":
+        "pt", "new_index": "5", "changed": false, "progress_percent": 0, "mastered":
+        false}, {"language_string": "Portuguese", "dependencies_name": ["DATES-AND-TIME"],
+        "disabled": false, "missing_lessons": 0, "url_title": "Sizes", "description":
+        "Adjectives used to describe the size of objects, such as <i>small</i> and
+        <i>big</i>.", "category": "new-vocabulary", "index": "45", "strength": 0.5,
+        "title": "Sizes", "coords_y": 11, "coords_x": 3, "id": "6afeeef0770dc476656ca98f49dad54e",
+        "learned": true, "show_strength_message": true, "icon_color": "blue", "num_lexemes":
+        14, "num_missing": 0, "dependencies": ["Dates and Time"], "known_lexemes":
+        ["5e4e162936da0781b8b9142099c2df48", "4c01afc0e580bd0700143e315ce9b2d2", "12826acf6db4f324853243e6d0d1c08d",
+        "5f513657a0e0775713c1fc057a68a8c6", "c693a21a76089f6fc66a37520ec72ff8", "dd1667b9b194efdba7b35240d0ccc01f",
+        "30c98d07eccf2328f9d9144af6f29b44", "0d427397da67e154dc345caf96b6f71a", "d4dac55a1287c2a69be4991a31c9c23c",
+        "cb180435ac40d4fbab9fa1c104596e09", "c132daa7f730cdfb261c105e22f2336f", "d1297b056a6fc25ecd80bf783dbf3451",
+        "902e42ce7d0ab84abb9646f6973ebcb9", "7bcbe0c8c3eeccca16b49aa951843235"], "words":
+        ["grandes", "pequena", "longos", "alta", "curtos", "amplo", "medida", "comprido",
+        "apertados", "tamanhos"], "short": "Sizes", "locked": false, "name": "SIZES",
+        "language": "pt", "new_index": "39", "changed": false, "progress_percent":
+        100.0, "mastered": true}, {"language_string": "Portuguese", "dependencies_name":
+        ["VERBS-IMPERATIVE", "VERBS-PRESENT3", "VERBS-PAST"], "disabled": false, "missing_lessons":
+        9, "url_title": "Verbs:-Phrasal-Future-Tense", "description": "The future
+        tense formed with the verb <i>ir</i>. Similar to the English future <i>I am
+        going to</i>.", "category": "new-verbs", "index": "35", "strength": 0, "title":
+        "Verbs: Phrasal Future Tense", "coords_y": 21, "coords_x": 2, "id": "082b9aa270bc4971b5cd15eb7f33004a",
+        "learned": false, "show_strength_message": false, "icon_color": "blue", "num_lexemes":
+        62, "num_missing": 62, "dependencies": ["Verbs: Imperative", "Verbs: Present
+        3", "Verbs: Past"], "known_lexemes": [], "words": ["vamos", "achar", "acontecer",
+        "haver", "pagar", "beber", "comer", "errar", "tirar", "lembrar"], "short":
+        "V. Fut Phr", "locked": true, "name": "VERBS-FUTURE-PHRASAL", "language":
+        "pt", "new_index": "53", "changed": false, "progress_percent": 0, "mastered":
+        false}, {"language_string": "Portuguese", "dependencies_name": ["PLURALS",
+        "FOOD2", "ANIMALS"], "disabled": false, "missing_lessons": 0, "url_title":
+        "Tu-or-Voc\u00ea", "description": "<i>Tu</i> and <i>Voc\u00ea</i> are both
+        equivalent to <i>You</i> in the singular form, but they are used in different
+        regions. <i>Tu</i> requires the 2nd person verb form <i>(Tu \u00e9s)</i> and
+        <i>Voc\u00ea</i> requires the 3rd person verb form <i>(Voc\u00ea \u00e9)</i>.",
+        "category": "new-grammar", "index": "10", "strength": 1.0, "title": "Tu or
+        Voc\u00ea", "coords_y": 5, "coords_x": 3, "id": "06f684bfe972960fecc05a6c2eb6e8fa",
+        "learned": true, "show_strength_message": false, "icon_color": "green", "num_lexemes":
+        7, "num_missing": 0, "dependencies": ["Plurals", "Food 2", "Animals"], "known_lexemes":
+        ["57408f89412af98111a2f87c0ab41b22", "0dd6934ef0f42a5151850fa8ca018c2c", "780e6eb95a307b053141272d9cf55fd4",
+        "4ec88176006caeb30dd0de7d92cebcc7", "0e00664dabefa7e5a6ccecd2f3f9e3e5", "0d1acf611569b2b7473b065b31c36705",
+        "227b31d04f10beff44b3c621d4bf1354"], "words": ["tu", "\u00e9s", "comes", "bebes",
+        "escreves", "l\u00eas", "tens"], "short": "Tu/Voc\u00ea", "locked": false,
+        "name": "TU-OR-VOC\u00ca", "language": "pt", "new_index": "34", "changed":
+        false, "progress_percent": 100.0, "mastered": true}, {"language_string": "Portuguese",
+        "dependencies_name": ["VERBS-PARTICIPLE", "DIRECTIONS", "TRAVEL"], "disabled":
+        false, "missing_lessons": 7, "url_title": "Feelings", "description": "Words
+        used to describe feelings, such as <i>happy</i> and <i>surprise</i>.", "category":
+        "new-vocabulary", "index": "49", "strength": 0, "title": "Feelings", "coords_y":
+        25, "coords_x": 1, "id": "d8335af06a754f2cc76608d4aa6fed73", "learned": false,
+        "show_strength_message": false, "icon_color": "red", "num_lexemes": 45, "num_missing":
+        44, "dependencies": ["Verbs: Participle", "Directions", "Travel"], "known_lexemes":
+        ["db7ce2bf9e40346b301df609018879d3"], "words": ["alegria", "amor", "felicidades",
+        "sorriso", "tens\u00e3o", "amizade", "feliz", "medo", "dor", "esperan\u00e7a"],
+        "short": "Feelings", "locked": true, "name": "FEELINGS", "language": "pt",
+        "new_index": "33", "changed": false, "progress_percent": 0, "mastered": false},
+        {"language_string": "Portuguese", "dependencies_name": ["SPORTS", "ABSTRACT-OBJECTS"],
+        "disabled": false, "missing_lessons": 6, "url_title": "Verbs:-Past-Perfect",
+        "description": "Compound tense using past forms of <i>ter</i> or <i>haver</i>
+        plus participles, similar to <i>I had been reading</i>.", "category": "new-verbs",
+        "index": "24", "strength": 0, "title": "Verbs: Past Perfect", "coords_y":
+        27, "coords_x": 2, "id": "c5fa345e63bd4c048f05ac85c8767895", "learned": false,
+        "show_strength_message": false, "icon_color": "green", "num_lexemes": 43,
+        "num_missing": 43, "dependencies": ["Sports", "Abstract Objects 1"], "known_lexemes":
+        [], "words": ["tinha", "achado", "acontecido", "havido", "ido", "errado",
+        "conversado", "tido", "feito", "sabido"], "short": "Past Per.", "locked":
+        true, "name": "VERBS-PAST-PERFECT", "language": "pt", "new_index": "5", "changed":
+        false, "progress_percent": 0, "mastered": false}, {"language_string": "Portuguese",
+        "dependencies_name": ["COMMUNICATION", "NATURE"], "disabled": false, "missing_lessons":
+        6, "url_title": "Verbs:-Subjunctive-Past", "description": "The subjunctive
+        past tense of actions, such as <i>if I were</i>.", "category": "new-verbs",
+        "index": "41", "strength": 0, "title": "Verbs: Subjunctive Past", "coords_y":
+        36, "coords_x": 1, "id": "ecce084f79a44f26e2bb5da11f77d486", "learned": false,
+        "show_strength_message": false, "icon_color": "red", "num_lexemes": 40, "num_missing":
+        40, "dependencies": ["Communication", "Nature"], "known_lexemes": [], "words":
+        ["tivessem", "achasse", "acontecesse", "desculpasse", "houvesse", "errasse",
+        "amasse", "tirasse", "lembrasse", "trouxesse"], "short": "V. Sub. P.", "locked":
+        true, "name": "VERBS-SUBJUNCTIVE-PAST", "language": "pt", "new_index": "40",
+        "changed": false, "progress_percent": 0, "mastered": false}, {"language_string":
+        "Portuguese", "dependencies_name": ["VERBS-PRESENT2", "ADVERBS"], "disabled":
+        false, "missing_lessons": 9, "url_title": "Places", "description": "Words
+        that refer to common places, such as <i>hotel</i> and <i>house</i>.", "category":
+        "new-vocabulary", "index": "17", "strength": 0, "title": "Places", "coords_y":
+        16, "coords_x": 1, "id": "050e59d900ddb0a64b5b37741efcab9b", "learned": false,
+        "show_strength_message": false, "icon_color": "green", "num_lexemes": 65,
+        "num_missing": 62, "dependencies": ["Verbs: Present 2", "Adverbs"], "known_lexemes":
+        ["af9f29f8e6b7b13bd1203d619b3f6166", "cff8719a06f693692e4ae3a3c6670158", "8922c8ed5b221f31acaf170a449c22d1"],
+        "words": ["restaurantes", "praias", "hot\u00e9is", "jardim", "aeroporto",
+        "ruas", "caf\u00e9", "cidades", "castelo", "igreja"], "short": "Places", "locked":
+        true, "name": "PLACES", "language": "pt", "new_index": "12", "changed": false,
+        "progress_percent": 0, "mastered": false}, {"language_string": "Portuguese",
+        "dependencies_name": ["PLURALS", "FOOD2", "ANIMALS"], "disabled": false, "missing_lessons":
+        0, "url_title": "Possessives", "description": "Words to express that somebody
+        owns or is related to something, such as <i>my dog</i> and <i>your father</i>.",
+        "category": "new-grammar", "index": "5", "strength": 0.75, "title": "Possessives",
+        "coords_y": 5, "coords_x": 1, "id": "f62cb95080f7eccbb902b3699ba80235", "learned":
+        true, "show_strength_message": true, "icon_color": "green", "num_lexemes":
+        23, "num_missing": 0, "dependencies": ["Plurals", "Food 2", "Animals"], "known_lexemes":
+        ["b038ebcc7806444f5aad9b854fb2e2b8", "6c558ba7b5eec26c7f55610733117e83", "70e79ed0b304a22a9b51cc3f26c36d73",
+        "f7d6ad23b43f8db032faca590c6fda89", "0c4214d30c14e97120edcd4a3457be79", "8f39c1217e8e40a60baac6a5a5a1348a",
+        "7327aa0d71c9dc29afe5392efa7d4524", "0c11ca56cf53eb84afbed0e00af389ab", "41db134d8af1c0610b0d926d8a53d01a",
+        "fa63e9daca2567910c37239311ee98a7", "3c03900a9a6992a1ae0f084d9f6d6750", "8d28ba0fa188f1847571467189846dda",
+        "4efa130a0d285f8d989a4c5b5b859dfe", "edc0b04906d09cf9d4048dc04f41d7db", "8f091d6d19675916e7e85d4169b5a76d",
+        "3e9520495b8eefb4c66477902db7cf75", "97536dcf947504b01ae1261c2475da1c", "bd9ba1a6aac648c990374d1fce15160a",
+        "c524e882b4240a6057da893582ead6b9", "815fd44965d48ba1a09b28e281244fed", "4a8daf5e0d26bec2fb34d329012fdb15",
+        "b0be5d198011b94c00268903169ab87a", "3ed15dadc40c973222e282f806a570e2"], "words":
+        ["tens", "meu", "minha", "teu", "teus", "suas", "nossa", "nossos", "nossas",
+        "seus"], "short": "Possess.", "locked": false, "name": "POSSESSIVES", "language":
+        "pt", "new_index": "41", "changed": false, "progress_percent": 100.0, "mastered":
+        true}, {"language_string": "Portuguese", "dependencies_name": ["FOOD"], "disabled":
+        false, "missing_lessons": 0, "url_title": "Plurals", "description": "What
+        happens when you have more than one of something: <i>cat</i> becomes <i>cats</i>
+        and <i>dog</i> becomes <i>dogs</i>.", "category": "new-grammar", "index":
+        "4", "strength": 1.0, "title": "Plurals", "coords_y": 4, "coords_x": 1, "id":
+        "9da6f97a9a3070699d011455eae3c50d", "learned": true, "show_strength_message":
+        false, "icon_color": "green", "num_lexemes": 13, "num_missing": 0, "dependencies":
+        ["Food"], "known_lexemes": ["cda965dd044bc55ac5741dfc71cd64b4", "a719d1ef1f284f0d8e25fdbd479eefa8",
+        "1c15e15370fec89ef467a27c6dfda560", "1c79cbc2689f0c0125d385904ca3cfc8", "c39acbb5ebd37c22160aaf22b77dc308",
+        "39e9b820f452278d99240ee44b446887", "112aae9517986b5ebb740b2c4fbd4992", "4facfa4eff94ff8fe71e46ee538be561",
+        "9726b32f5b63adffb6d86f4e916fc1b4", "6296df3ebe3dc828276d82d709dd809f", "74563f2b8fcf7bfc003dbc0a16fa820c",
+        "9444569763784afdc4d71de0edc31cf9", "3bec47586502ca744c2f2928f4c29143"], "words":
+        ["ma\u00e7\u00e3s", "livros", "chaves", "cartas", "palavras", "abacaxis",
+        "bons", "boas", "moscas", "insetos"], "short": "Plurals", "locked": false,
+        "name": "PLURALS", "language": "pt", "new_index": "44", "changed": false,
+        "progress_percent": 100.0, "mastered": true}, {"language_string": "Portuguese",
+        "dependencies_name": ["ARTS", "VERBS-FUTURE-PERFECT", "ABSTRACT-OBJECTS3"],
+        "disabled": false, "missing_lessons": 6, "url_title": "Verbs:-Subjunctive-Present",
+        "description": "The present tense in the subjunctive mood, similar to <i>It
+        is likely that they eat there.</i>", "category": "new-verbs", "index": "24",
+        "strength": 0, "title": "Verbs: Subjunctive Present", "coords_y": 32, "coords_x":
+        1, "id": "a8492ad475c8ca352f870a218aad93e9", "learned": false, "show_strength_message":
+        false, "icon_color": "red", "num_lexemes": 42, "num_missing": 42, "dependencies":
+        ["Arts", "Verbs: Future Perfect", "Abstract Objects 3"], "known_lexemes":
+        [], "words": ["ache", "aconte\u00e7a", "desculpe", "haja", "ame", "tire",
+        "lembre", "conversem", "traga", "vamos"], "short": "V. Subj.", "locked": true,
+        "name": "VERBS-SUBJUNCTIVE-PRESENT", "language": "pt", "new_index": "40",
+        "changed": false, "progress_percent": 0, "mastered": false}, {"language_string":
+        "Portuguese", "dependencies_name": ["VERBS-PAST-IMPERFECT", "VERBS-SUBJUNCTIVE-PAST"],
+        "disabled": false, "missing_lessons": 4, "url_title": "Verbs:-Subjunctive-Pluperfect",
+        "description": "Compound tense using imperfect subjunctive forms of <i>ter</i>
+        or <i>haver</i> plus participles, similar to <i>I would have eaten if I had
+        arrived on time.</i>", "category": "new-verbs", "index": "24", "strength":
+        0, "title": "Verbs: Subjunctive Pluperfect", "coords_y": 37, "coords_x": 3,
+        "id": "e7dd878b907ad84ec506e9cb82532882", "learned": false, "show_strength_message":
+        false, "icon_color": "red", "num_lexemes": 27, "num_missing": 27, "dependencies":
+        ["Verbs: Past Imperfect", "Verbs: Subjunctive Past"], "known_lexemes": [],
+        "words": ["tivesse", "achado", "acontecido", "havido", "tirado", "conversado",
+        "ido", "tido", "feito", "podido"], "short": "Subj. Plu.", "locked": true,
+        "name": "VERBS-SUBJUNCTIVE-PLUPERFECT", "language": "pt", "new_index": "40",
+        "changed": false, "progress_percent": 0, "mastered": false}, {"language_string":
+        "Portuguese", "dependencies_name": ["VERBS-CONDITIONAL-PERFECT"], "disabled":
+        false, "missing_lessons": 7, "url_title": "Nature", "description": "Words
+        that refer to things in nature, such as <i>flower</i> and <i>sky</i>.", "category":
+        "new-vocabulary", "index": "29", "strength": 0, "title": "Nature", "coords_y":
+        35, "coords_x": 3, "id": "d3cfb340eb6e52dea708ac16992be3c2", "learned": false,
+        "show_strength_message": false, "icon_color": "green", "num_lexemes": 50,
+        "num_missing": 49, "dependencies": ["Verbs: Conditional Perfect"], "known_lexemes":
+        ["4171427cb2a3650917eae96b9bcb638b"], "words": ["flor", "\u00e1rvores", "c\u00e9u",
+        "rio", "lua", "sol", "submundo", "chuva", "fogo", "terra"], "short": "Nature",
+        "locked": true, "name": "NATURE", "language": "pt", "new_index": "15", "changed":
+        false, "progress_percent": 0, "mastered": false}, {"language_string": "Portuguese",
+        "dependencies_name": ["OCCUPATIONS"], "disabled": false, "missing_lessons":
+        0, "url_title": "Household", "description": "Words used to describe things
+        around the house, such as <i>table</i> and <i>mirror</i>.", "category": "new-vocabulary",
+        "index": "51", "strength": 0.5, "title": "Household", "coords_y": 13, "coords_x":
+        1, "id": "3b207739139c2d48ae38f812d55f7201", "learned": true, "show_strength_message":
+        true, "icon_color": "green", "num_lexemes": 56, "num_missing": 0, "dependencies":
+        ["Occupations"], "known_lexemes": ["805c8bd898b730ae832947bf51e0528b", "80dee1bc0ad6cee29e472c12b791097d",
+        "fa1729bce5111d44e415fa13642220b8", "0dd481a1b29f345c3e09f8880dfc51c8", "8ccaddfe9f496a21bbca378d69e54a26",
+        "f6b47d201f325e387b33edbf700e2667", "5e0824fa69b6af2bc94133123ded3ef6", "53f6cd24a2dcbd2b874ae9ec36002fb6",
+        "681adb68337c0daef293a7098c82eee7", "5fa6aea4816b6568ac83b3eeed964f79", "a8272902a2a668f65d68a94ee6f3e6c4",
+        "34702ea49b6400bbea821b9762e2a7d9", "ad6c30f15c75b71ecbddfbcd33d54926", "486b13e8786f907ee0f7f44dc3f13e67",
+        "99271ce818ca6594e288171b8f5032ce", "1572fe458ded0684ac34112502c8fea3", "5c5de4b45cd576adf050276921b6b0e6",
+        "a757f0732ab6cc432820bc1b67b5a3ce", "ba793875ff0b4b379228d841aa4e8687", "8e193c987676a80e33dfc2c1806811a9",
+        "69331c169574dde278971ded3515d6c0", "5dab75ed84581284acbd29e46963cfa0", "0d1e78bff17d1f863f932448b675a01f",
+        "6391863d9d6ab1d7c59fccfbce8fd685", "7140c86bac1cf697418eb150c504d76d", "f8ebb926c0887d052e5403ab8c3b4079",
+        "fef67e3cb03b156e9084f51346a697ec", "46addcec228e54b56a3fb6b7271bbaaa", "97ed958e872b85777b1aab0ee803bd9e",
+        "e1953f0f1414b0393998d5fb5ea7c727", "2299d30187df1a6bef67a4b0ee854b3c", "3074514522f539c4808d5967efbfc95c",
+        "5a3a40dc3a6d0bc86e6a0691603abdd1", "cce129b12021ec9ce7f8bcda4bc28bbc", "6295dc12e349f8d9794f4c7d3b8d9de9",
+        "195c08b4fd50b107d5394f1c5e1b6e63", "422eea7f301ee2ac5f16b03eac1c6923", "cbb676a71c3703caf95fcc4e402295aa",
+        "612e867d1237902cecf08fee56232470", "f9f5ecdc770c4a8bc9a18554cfe86721", "b805efcead5f30bd18a37ea6fd53428a",
+        "965b2e688d7668b64f46c0d83f71c30c", "fb5a3297756284efcb5e0bf8a2825055", "ec17e83116196a49fb21aebf4c9f15e9",
+        "ca2b33acc6474f25b33be56f49c8f966", "27b38b58495bf1b2ed9e13aea7555a9d", "f15525578a90bab91531de6f8b5fcbe2",
+        "3500872faef086448f474333282e9340", "e190ef9ac7ac0f3b0f30b87f40acc64b", "483cdb278b9f9c4f9788948b607b5092",
+        "ccd1a4572b892e7e0d7202dbc094520a", "86a77cee645af140e03216ed9a475412", "ab91c52225604b9976127e48170460e1",
+        "a3f81d5721ed7b92041753e0069e997b", "ba1654fbf9be52ef77e984670408e81d", "a1f64988466a1f5c28da8a1c6bc5631a"],
+        "words": ["mesa", "cama", "cadeiras", "colher", "faca", "copos", "telefones",
+        "x\u00edcara", "televis\u00e3o", "ber\u00e7os"], "short": "Household", "locked":
+        false, "name": "HOUSEHOLD", "language": "pt", "new_index": "28", "changed":
+        false, "progress_percent": 100.0, "mastered": true}, {"language_string": "Portuguese",
+        "dependencies_name": ["ARTS", "VERBS-FUTURE-PERFECT", "ABSTRACT-OBJECTS3"],
+        "disabled": false, "missing_lessons": 6, "url_title": "Science", "description":
+        "Words used in the scientific domain, such as <i>theory</i> and <i>chemistry</i>.",
+        "category": "new-vocabulary", "index": "38", "strength": 0, "title": "Science",
+        "coords_y": 32, "coords_x": 3, "id": "03703b195bc146d927aae309c6434624", "learned":
+        false, "show_strength_message": false, "icon_color": "blue", "num_lexemes":
+        44, "num_missing": 43, "dependencies": ["Arts", "Verbs: Future Perfect", "Abstract
+        Objects 3"], "known_lexemes": ["a02bb6265e3ff94705c555444e48989d"], "words":
+        ["ponto", "an\u00e1lise", "mat\u00e9ria", "ci\u00eancias", "conceitos", "teoria",
+        "t\u00e9cnico", "superf\u00edcie", "tecnologias", "velocidade"], "short":
+        "Science", "locked": true, "name": "SCIENCE", "language": "pt", "new_index":
+        "7", "changed": false, "progress_percent": 0, "mastered": false}, {"language_string":
+        "Portuguese", "dependencies_name": ["FOOD"], "disabled": false, "missing_lessons":
+        0, "url_title": "Animals", "description": "Words that refer to common animals,
+        such as <i>dog</i> and <i>cat</i>.", "category": "new-vocabulary", "index":
+        "3", "strength": 0.75, "title": "Animals", "coords_y": 4, "coords_x": 2, "id":
+        "d3fc5043af8ba0c150f3f69743aa3b3d", "learned": true, "show_strength_message":
+        true, "icon_color": "blue", "num_lexemes": 29, "num_missing": 0, "dependencies":
+        ["Food"], "known_lexemes": ["8353a4566d918db85cc69f229bd1177e", "4bf6e3b6bb71d3a40d121b316c0cf899",
+        "8dd2ccac29c7cf0cf88bfd09945ab590", "e144efadd0d1aa58a3e8b0b0744e614a", "cf1858f99b3f31b59ecc1020e3dbc9b7",
+        "5fc16736d9679de18b8293507d707bb1", "6909099fef4f7d71147846595b6facea", "6225e9e71cd796208f0904e57e0afdf2",
+        "4ec86dba8dfaa38b2be1413d54418651", "9c55d3d02ef15b5dcf90a69286a6dab0", "e05b98ba357e8fda8ce695b6319cd484",
+        "3d1d5a30903464e35c44b81316798fac", "646eacbdadabb6c714fef0b2aeb40f6c", "09cd6338773c2b99587b336a6141b185",
+        "17f747437aee974b58f0d8175fa700db", "001635bcb24496cf2b27731c3708dbfa", "82f0fcdb8d8593de235fcb20f455458c",
+        "714fe10cd779bebd9e85e2aa1c622cbf", "04f05b85448352c4f4175d93fb3e6470", "4406f1c64403562eb84df43d2aff4a4a",
+        "ef7cebcd2d0cb05aa593bca0ff8fa716", "32822b532d3c27c0f9dd59cbe0f49bdb", "bbc8e167936b1c537d5bd6fb2a73f01f",
+        "2e7f76af5fc65d9c3f981eab805376d5", "ae847c1b42d65ab7f81dcf7d76086575", "3d115ae60fa201a4179b160a3239572e",
+        "828d8dd7d2c7fd19c7cd0152e6583b79", "4b3613233b3fede2e3e92ac2ef752bf6", "7d81225441b91a2be2cc4758d21b2df3"],
+        "words": ["gato", "cavalo", "p\u00e1ssaro", "animal", "animais", "formiga",
+        "abelha", "gata", "p\u00e1ssaros", "borboleta"], "short": "Animals", "locked":
+        false, "name": "ANIMALS", "language": "pt", "new_index": "6", "changed": false,
+        "progress_percent": 100.0, "mastered": true}, {"language_string": "Portuguese",
+        "dependencies_name": ["VERBS-PARTICIPLE", "DIRECTIONS", "TRAVEL"], "disabled":
+        false, "missing_lessons": 6, "url_title": "Verbs:-Present-Perfect", "description":
+        "Compound tense using present forms of <i>ter</i> or <i>haver</i> plus participles,
+        similar to <i>I have eaten</i>.", "category": "new-verbs", "index": "9", "strength":
+        0, "title": "Verbs: Present Perfect", "coords_y": 25, "coords_x": 3, "id":
+        "0d4273bb5ba2d0dedb95127796e1e909", "learned": false, "show_strength_message":
+        false, "icon_color": "red", "num_lexemes": 42, "num_missing": 42, "dependencies":
+        ["Verbs: Participle", "Directions", "Travel"], "known_lexemes": [], "words":
+        ["tem", "acontecido", "havido", "errada", "tirado", "conversado", "ido", "tido",
+        "feito", "podido"], "short": "Pres. Per.", "locked": true, "name": "VERBS-PRESENT-PERFECT",
+        "language": "pt", "new_index": "52", "changed": false, "progress_percent":
+        0, "mastered": false}, {"language_string": "Portuguese", "dependencies_name":
+        ["CLOTHING"], "disabled": false, "missing_lessons": 0, "url_title": "Colors",
+        "description": "Words for the common colors, such as <i>red</i> and <i>white</i>.",
+        "category": "new-vocabulary", "index": "7", "strength": 0.5, "title": "Colors",
+        "coords_y": 7, "coords_x": 3, "id": "c18b081217588371a560215a60c75dd2", "learned":
+        true, "show_strength_message": true, "icon_color": "green", "num_lexemes":
+        13, "num_missing": 0, "dependencies": ["Clothing"], "known_lexemes": ["883318b2654c62f7e20b6eed4c741464",
+        "da9f80d6d412330e03290fb232dd8cda", "ffc3879a40db6386a49a9c67c1978f6f", "c737cc0b147be53c8bcd474c577cb9da",
+        "de354976e60d34f0730b5686b509a5b8", "112c791cad6be75b95cfc1881a51ebeb", "835a343b5a72ee22f1cc94f0d2f535bc",
+        "0921c5c61b8a52224dbc38357232cb18", "05d6ce06e49bf9ebbeff072586e2e19b", "7ad6924a4a8e9bd1120019baf0b988d9",
+        "dcb9d0aac819c29217413034ff3c5304", "49bd26b62371287a59153771151dc6fe", "6f42dc67e7fc4ba7cac0b5805ce3638e"],
+        "words": ["branco", "vermelhas", "negro", "azul", "amarela", "verde", "cor",
+        "preto", "morena", "colorido"], "short": "Colors", "locked": false, "name":
+        "COLORS", "language": "pt", "new_index": "4", "changed": false, "progress_percent":
+        100.0, "mastered": true}, {"language_string": "Portuguese", "dependencies_name":
+        ["ADJECTIVES"], "disabled": false, "missing_lessons": 0, "url_title": "Verbs:-Present-2",
+        "description": "More about the present tense of actions: <i>I dream</i>, <i>he
+        asks</i>, <i>they exist</i>.", "category": "new-verbs", "index": "9", "strength":
+        0.5, "title": "Verbs: Present 2", "coords_y": 15, "coords_x": 1, "id": "d600597ed056ae3f171630874bb9d1cb",
+        "learned": true, "show_strength_message": true, "icon_color": "blue", "num_lexemes":
+        72, "num_missing": 0, "dependencies": ["Adjectives 1"], "known_lexemes": ["e148f8621bd0e655bf25593fdd9cc60a",
+        "6633ffc4c3ddc4f0b63ef0b399f1af5b", "37bdaca62e8f874362738907569b28d8", "7fa9cf66120d4fdbad15df79befdcbfe",
+        "669ad4663fa0328278b993f196e0a1f8", "218ba2f3041b20e537a1c34f64d35631", "eafb7ba0d73a3e4b7c9985d189fa8dc7",
+        "39b018ce105804aabc060fe6f1d2cc00", "aa5a882fb6fc7110eaa8ac1cc9525c13", "60ff571b6589ab463e39c8281f1bc925",
+        "0f00a8980e7331681b10a0014e621aaf", "c33b3fdb2766559db124761e6f40e7d0", "b07e087a3121c49bcf1e4717aacb34fe",
+        "5fe69790f7f9749088ef2aa182246d84", "632a219dc266870c46018ee517a229d2", "afb58d9898bccfac7f7351e27418094b",
+        "9e5608bfb5cc550c7fd1599205110ddc", "62c34efc2c768634a55bc410f551e4e4", "edba79a834785a29ff2575729c88b04e",
+        "ed555ec2827c56a117597047114cca5f", "7c724ae6851842c071cba5a32b459198", "e84b2c6b4fa7ff549077642eee3fc1a3",
+        "2fc298886d974458465569dc70171910", "e5ac21c9235d62b2bf41923f29d8d6f0", "09ac720fa780c47ff393ac2b72107957",
+        "10d6bf8abe4f90770bd404c9b9a8625c", "f38895a40000db3beb3ce45574a07079", "0d7918b81c3f273da47dac6a706e4a2b",
+        "02453c360814f66d3cd4eab9b5eeb17e", "d7471d17a78d3b4a62e3473c113baf14", "995c52d13db2f7bc0dbb04399ab7bc41",
+        "fcd114e7744044f46cd190dd3d34195a", "ed1733801b38691d1e4590108eb5ccd2", "054064807ab30cbce848a9c0a1d63d5c",
+        "92e0dd5592e30f1809aad964b1dc34a4", "e2e6cf57d14a3fe68b95de17c3617da5", "a4f4a840f4f85e0cf9c5c06de02e1391",
+        "f1748d6ba831996b86272590e6971698", "aad4ca966e64791d976d7b56c6a42226", "8147f0b739eb41f30d653e98639600e6",
+        "c0b35bed88099854c32d3616377b3d5b", "0f688300ab27725fc4b6f8796ae8a373", "5346448a4c647bf6760edd05da8cc58b",
+        "8a4d44659d759cba2635a38999d3ba7e", "42cc579d3581c00568cdca3e9afae07e", "0acfb3881c75d3e6a5a3d910beaac6a8",
+        "812d722b798624702eb0b3171fadd030", "eda894c9a370ae99a076820af0ef3609", "4c9d3d4e3c9ee93fb28d7bb70abb1491",
+        "7fc7029c9261a2de854975ab4e943c87", "fec743e9d2bbe79714cbdd581ecba81b", "be29daba3a29532083185ba021b6b94d",
+        "9dc24c914c91eb1527a280b3facc0b0d", "eab7237fed79b7a4326a97df4a7ae371", "69a89bc49bab11b091634d365c3a41df",
+        "78481a2875da0f6f66227d1bf928a76a", "8648bd462ad7e60ec471cdccb857e796", "91adbcfc9ebeeec90901861eb2a8b832",
+        "132665f0eeea0ccfdaad5481d0e1d51f", "c76ed2fa59f01f68bf67b144668d410e", "8f8a786b52843913af21726f6b21d323",
+        "4f57a4843d3765e542a33ef9d8e6e6a5", "e5bfeea3ee362c84aa7c0aa88e5e8d67", "45ee440af117a24a4f44048bc374c378",
+        "f48225d447d6a3ff48fd579de639c594", "bc7a8d65310cf1e218fb3d990e4fdeb0", "615e25a1c7001d375a783afae64fa7b7",
+        "1f5172b85e5a2f7bc0d739177ec49596", "b2ace9f65623db9c045e89057a4efed6", "2666240badcb51a96e0bcaa27de37776",
+        "61f0d75b7fa73d886af17ec004d25213", "b1f336d1a45ea7a9a455924ac1196b92"], "words":
+        ["existe", "levamos", "produz", "provam", "sonham", "aparecem", "apresentamos",
+        "procuro", "respeito", "cabe"], "short": "V. Pres. 2", "locked": false, "name":
+        "VERBS-PRESENT2", "language": "pt", "new_index": "53", "changed": false, "progress_percent":
+        100.0, "mastered": true}, {"language_string": "Portuguese", "dependencies_name":
+        ["EDUCATION"], "disabled": false, "missing_lessons": 4, "url_title": "Directions",
+        "description": "Words used to ask for directions, such as <i>right</i> and
+        <i>left</i>.", "category": "new-vocabulary", "index": "50", "strength": 0,
+        "title": "Directions", "coords_y": 24, "coords_x": 3, "id": "37e4c468e7f6426b7492e459bd3273a6",
+        "learned": false, "show_strength_message": false, "icon_color": "red", "num_lexemes":
+        25, "num_missing": 25, "dependencies": ["Education"], "known_lexemes": [],
+        "words": ["direita", "lado", "princ\u00edpios", "entrada", "exteriores", "sa\u00edda",
+        "chegada", "busca", "tr\u00e1fico", "sinais"], "short": "Directions", "locked":
+        true, "name": "DIRECTIONS", "language": "pt", "new_index": "18", "changed":
+        false, "progress_percent": 0, "mastered": false}, {"language_string": "Portuguese",
+        "dependencies_name": ["MEDICAL"], "disabled": false, "missing_lessons": 9,
+        "url_title": "Verbs:-Future", "description": "The future tense of actions:
+        <i>I will drink</i>, <i>I will eat</i>, <i>I will walk</i>.", "category":
+        "new-verbs", "index": "35", "strength": 0, "title": "Verbs: Future", "coords_y":
+        30, "coords_x": 1, "id": "9cd18a2b9c165d130aabbeeba94c10e4", "learned": false,
+        "show_strength_message": false, "icon_color": "green", "num_lexemes": 61,
+        "num_missing": 61, "dependencies": ["Medical"], "known_lexemes": [], "words":
+        ["comer\u00e3o", "beber\u00e3o", "estar\u00e3o", "seremos", "veremos", "achar\u00e1",
+        "acontecer\u00e1", "haver\u00e1", "errar\u00e1", "tirarei"], "short": "V.
+        Future", "locked": true, "name": "VERBS-FUTURE", "language": "pt", "new_index":
+        "5", "changed": false, "progress_percent": 0, "mastered": false}, {"language_string":
+        "Portuguese", "dependencies_name": ["OCCUPATIONS"], "disabled": false, "missing_lessons":
+        0, "url_title": "Measurements", "description": "Words used when measuring,
+        such as <i>liter</i> and <i>pound</i>.", "category": "new-vocabulary", "index":
+        "58", "strength": 0.5, "title": "Measurements", "coords_y": 13, "coords_x":
+        3, "id": "0b8c7f3d623dc07b3af6942d99dff18e", "learned": true, "show_strength_message":
+        true, "icon_color": "red", "num_lexemes": 10, "num_missing": 0, "dependencies":
+        ["Occupations"], "known_lexemes": ["315b7e86878d0100a128d82405040ba1", "9752de122ff39fdaf2454c37cfa4927f",
+        "eb14fcc2e595e8848ffa09fd647c55d5", "14a13191d67be9c9683ee0982f96d156", "f832d02824c60ba7de3a6c7b9fea39bc",
+        "ad5cbcf8b3822c17eea92863be9c7ad2", "dd275a187aee236c82188614222583f8", "5dcd3fd5e96146b1db6300ed40e23331",
+        "5879aa7fa8b705f125141f2f723e64a2", "5f3b7836361ebde92d6be000e1a5edf7"], "words":
+        ["cent\u00edmetros", "grama", "quilos", "quil\u00f4metro", "litros", "lote",
+        "trimestres", "total", "metro", "m\u00e9dia"], "short": "Measure.", "locked":
+        false, "name": "MEASUREMENTS", "language": "pt", "new_index": "13", "changed":
+        false, "progress_percent": 100.0, "mastered": true}, {"language_string": "Portuguese",
+        "dependencies_name": ["SCIENCE", "VERBS-SUBJUNCTIVE-PRESENT"], "disabled":
+        false, "missing_lessons": 2, "url_title": "Verbs:-Modal", "description": "Verbs
+        usually used with other verbs to indicate ability, permission or obligation,
+        such as <i>should</i> and <i>could</i>.", "category": "new-verbs", "index":
+        "39", "strength": 0, "title": "Verbs: Modal", "coords_y": 33, "coords_x":
+        3, "id": "f100b2eadaee1f3fb97b9b0ca034e03a", "learned": false, "show_strength_message":
+        false, "icon_color": "red", "num_lexemes": 14, "num_missing": 14, "dependencies":
+        ["Science", "Verbs: Subjunctive Present"], "known_lexemes": [], "words": ["deve",
+        "poderia", "pude", "queria", "devia", "deveria", "pudesse", "deveremos", "quis",
+        "poderemos"], "short": "V. Modal", "locked": true, "name": "VERBS-MODAL",
+        "language": "pt", "new_index": "52", "changed": false, "progress_percent":
+        0, "mastered": false}, {"language_string": "Portuguese", "dependencies_name":
+        ["ABSTRACT-OBJECTS2", "VERBS-INFINITIVE2"], "disabled": false, "missing_lessons":
+        9, "url_title": "Medical", "description": "Words used in the medical domain,
+        such as various body parts and <i>clinic</i>.", "category": "new-vocabulary",
+        "index": "34", "strength": 0, "title": "Medical", "coords_y": 29, "coords_x":
+        2, "id": "986bb627a0b04ba347026b5f37fe102e", "learned": false, "show_strength_message":
+        false, "icon_color": "red", "num_lexemes": 65, "num_missing": 64, "dependencies":
+        ["Abstract Objects 2", "Verbs: Infinitive 2"], "known_lexemes": ["07e3e06b68914054723e5258f8cbedfd"],
+        "words": ["sa\u00fade", "sangue", "tratamento", "bocas", "doen\u00e7as", "cora\u00e7\u00e3o",
+        "m\u00e9dicos", "riscos", "opera\u00e7\u00e3o", "rosto"], "short": "Medical",
+        "locked": true, "name": "MEDICAL", "language": "pt", "new_index": "10", "changed":
+        false, "progress_percent": 0, "mastered": false}, {"language_string": "Portuguese",
+        "dependencies_name": ["FEELINGS", "VERBS-PRESENT-PERFECT"], "disabled": false,
+        "missing_lessons": 5, "url_title": "Sports", "description": "Words used in
+        sports, such as <i>champion</i> and <i>player</i>.", "category": "new-vocabulary",
+        "index": "31", "strength": 0, "title": "Sports", "coords_y": 26, "coords_x":
+        1, "id": "3bca92135c9eefb37d8cc205b358e9a5", "learned": false, "show_strength_message":
+        false, "icon_color": "green", "num_lexemes": 36, "num_missing": 36, "dependencies":
+        ["Feelings", "Verbs: Present Perfect"], "known_lexemes": [], "words": ["jogadores",
+        "equipe", "exerc\u00edcio", "torneio", "campe\u00e3", "campeonato", "carreira",
+        "esporte", "finais", "vit\u00f3ria"], "short": "Sports", "locked": true, "name":
+        "SPORTS", "language": "pt", "new_index": "9", "changed": false, "progress_percent":
+        0, "mastered": false}, {"language_string": "Portuguese", "dependencies_name":
+        ["VERBS-PRESENT"], "disabled": false, "missing_lessons": 0, "url_title": "Conjunctions",
+        "description": "Words for combining phrases, such as <i>and</i> and <i>or</i>.",
+        "category": "new-grammar", "index": "10", "strength": 0.75, "title": "Conjunctions",
+        "coords_y": 9, "coords_x": 1, "id": "59b3bb9d72c3430f264d3e13b1c246be", "learned":
+        true, "show_strength_message": true, "icon_color": "blue", "num_lexemes":
+        9, "num_missing": 0, "dependencies": ["Verbs: Present 1"], "known_lexemes":
+        ["e2fea549051ff7e452ae5ffc87c79695", "7119cca8190ef59ccea69faa52a83718", "b64fcf42157895546d3f48b062414184",
+        "90a6ff64a5f81a48717aa30a09181953", "0fdb1b63b93a895eea9db7f8863975fb", "3cf310555b08d6530d92bc39e3793f8c",
+        "8030edca8e2e23707ba470ecf8ab283e", "d7f196406588a9763567fda6a2e7b396", "5654808a61597128ef3716a11e874921"],
+        "words": ["que", "como", "da\u00ed", "porque", "mas", "se", "nem", "ou", "quando"],
+        "short": "Conjunct.", "locked": false, "name": "CONJUNCTIONS", "language":
+        "pt", "new_index": "20", "changed": false, "progress_percent": 100.0, "mastered":
+        true}, {"language_string": "Portuguese", "dependencies_name": ["FEELINGS",
+        "VERBS-PRESENT-PERFECT"], "disabled": false, "missing_lessons": 10, "url_title":
+        "Abstract-Objects-1", "description": "Words that refer to ideas and concepts,
+        such as <i>reality</i> and <i>truth</i>.", "category": "new-vocabulary", "index":
+        "27", "strength": 0, "title": "Abstract Objects 1", "coords_y": 26, "coords_x":
+        3, "id": "f635b925c89f322de097c49ecceee960", "learned": false, "show_strength_message":
+        false, "icon_color": "red", "num_lexemes": 70, "num_missing": 70, "dependencies":
+        ["Feelings", "Verbs: Present Perfect"], "known_lexemes": [], "words": ["sistema",
+        "tipo", "processo", "realidade", "mudan\u00e7as", "obra", "modo", "informa\u00e7\u00f5es",
+        "verdade", "a\u00e7\u00e3o"], "short": "Abs. Ob. 1", "locked": true, "name":
+        "ABSTRACT-OBJECTS", "language": "pt", "new_index": "16", "changed": false,
+        "progress_percent": 0, "mastered": false}], "bonus_skills": [{"language_string":
+        "Portuguese", "dependencies_name": [], "disabled": false, "url_title": "Flirting",
+        "description": "Words and phrases to flirt in Portuguese.", "category": "bonus",
+        "index": "64", "strength": 0.0, "title": "Flirting", "coords_y": 14, "coords_x":
+        99, "id": "9094c6b036b44550a3ecd9a8d045d8ae", "learned": false, "icon_color":
+        "purple", "dependencies": [], "words": ["eu", "\u00e9", "vamos", "voc\u00ea",
+        "tem", "lugar", "qual", "sou", "se", "beijo"], "short": "Flirting", "locked":
+        true, "name": "FLIRTING", "language": "pt", "new_index": "64", "progress_percent":
+        0.0, "mastered": false}, {"language_string": "Portuguese", "dependencies_name":
+        [], "disabled": false, "url_title": "Idioms-and-Proverbs", "description":
+        "Idioms and Proverbs in Portuguese.", "category": "bonus", "index": "63",
+        "strength": 0.0, "title": "Idioms and Proverbs", "coords_y": 7, "coords_x":
+        99, "id": "fcd14111ef3df766dc98d5f63d79433f", "learned": false, "icon_color":
+        "purple", "dependencies": [], "words": ["a", "bem", "brasa", "contra", "da",
+        "de", "do", "est\u00e1", "macaco", "meu"], "short": "Idioms", "locked": true,
+        "name": "IDIOMS", "language": "pt", "new_index": "63", "progress_percent":
+        0.0, "mastered": false}], "level_points": 750, "all_time_rank": ["190319",
+        "238876", "2766200", "869154", "11187110", "2346131", "8973815", "2639963",
+        "199648", "7893088", "1349609", "4371411", "1047964", "1496772", "2713435",
+        "4419570", "7959061", "1375328", "7551227", "12704439", "3097616", "2371694",
+        "4205262", "7869284", "1280762", "1393543", "2661913", "3477287", "1694737",
+        "3836868", "8754623", "7911566", "7849150", "9577875", "3685950", "2202871",
+        "5477610", "733166", "927170", "3312596", "2104489", "10258474", "81071",
+        "2706122", "1430645", "8015663", "1369660", "3391300"], "show_practice": true,
+        "points": 2285, "points_ranking_data_dict": {"1393543": {"username": "juanpabloe",
+        "language_string": "Portuguese", "language": "pt", "self": false, "points_data":
+        {"languages": [{"language_string": "English", "points": 79}, {"language_string":
+        "Portuguese", "points": 23}, {"language_string": "German", "points": 0}],
+        "total": 102}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1393543/mxYX1MTaxw",
+        "id": 1393543}, "7911566": {"username": "nlalo", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "Italian", "points": 62}, {"language_string": "English", "points": 0}], "total":
+        62}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/7911566/EHRz92UTxS",
+        "id": 7911566}, "3097616": {"username": "burtlo", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "French", "points": 133}, {"language_string": "Spanish", "points": 52}, {"language_string":
+        "German", "points": 0}], "total": 185}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/3097616/s4UbdmA0Pp",
+        "id": 3097616}, "1694737": {"username": "javiersaldana", "language_string":
+        "Portuguese", "language": "pt", "self": false, "points_data": {"languages":
+        [{"language_string": "German", "points": 79}], "total": 79}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1694737/MdqOoelfPG",
+        "id": 1694737}, "2346131": {"username": "abracarioca", "language_string":
+        "Portuguese", "language": "pt", "self": false, "points_data": {"languages":
+        [{"language_string": "Italian", "points": 1280}, {"language_string": "French",
+        "points": 0}, {"language_string": "English", "points": 0}], "total": 1280},
+        "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2346131/vwCaTAD8PZ",
+        "id": 2346131}, "2371694": {"username": "lilboo_9", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "French", "points": 176}], "total": 176}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2371694/SWpSmAJppy",
+        "id": 2371694}, "2661913": {"username": "jemaddux", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "Italian", "points": 86}, {"language_string": "French", "points": 0}, {"language_string":
+        "German", "points": 0}, {"language_string": "Portuguese", "points": 0}, {"language_string":
+        "Spanish", "points": 0}], "total": 86}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2661913/uZ0q7mBks8",
+        "id": 2661913}, "8015663": {"username": "ivanpe83", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "English", "points": 0}], "total": 0}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/8015663/UF_XdigTeT",
+        "id": 8015663}, "1047964": {"username": "chekiesco", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "French", "points": 367}], "total": 367}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1047964/nFMMLnvQbf",
+        "id": 1047964}, "869154": {"username": "renechz", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "German", "points": 1549}, {"language_string": "French", "points": 24}, {"language_string":
+        "English", "points": 0}, {"language_string": "Spanish", "points": 0}], "total":
+        1573}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/869154/aOd7dXc_rN",
+        "id": 869154}, "2639963": {"username": "branzel", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "English", "points": 776}], "total": 776}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2639963/HqTAJMQG17",
+        "id": 2639963}, "199648": {"username": "adrian2112", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "German", "points": 555}, {"language_string": "Spanish", "points": 0}], "total":
+        555}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/199648/6CEyG4x_a_",
+        "id": 199648}, "11187110": {"username": "bcp223", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "Spanish", "points": 1300}, {"language_string": "French", "points": 65}, {"language_string":
+        "Portuguese", "points": 0}], "total": 1365}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/11187110/84BA2wkfg2",
+        "id": 11187110}, "3477287": {"username": "jonah_moses", "language_string":
+        "Portuguese", "language": "pt", "self": false, "points_data": {"languages":
+        [{"language_string": "Spanish", "points": 81}], "total": 81}, "avatar": "https://s3.amazonaws.com/duolingo-images/avatar/default_1",
+        "id": 3477287}, "2104489": {"username": "cuadraman", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "English", "points": 10}], "total": 10}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2104489/92SSPk9J5f",
+        "id": 2104489}, "10258474": {"username": "cyraxjoe", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "French", "points": 10}], "total": 10}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/10258474/jtoOmNCGRg",
+        "id": 10258474}, "81071": {"username": "JasonFlores", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "English", "points": 10}], "total": 10}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/81071/H8EaJ09whW",
+        "id": 81071}, "12704439": {"username": "HannahWebber", "language_string":
+        "Portuguese", "language": "pt", "self": false, "points_data": {"languages":
+        [{"language_string": "Spanish", "points": 188}], "total": 188}, "avatar":
+        "https://s3.amazonaws.com/duolingo-images/avatar/default_1", "id": 12704439},
+        "1369660": {"username": "maxcantu", "language_string": "Portuguese", "language":
+        "pt", "self": false, "points_data": {"languages": [{"language_string": "English",
+        "points": 0}], "total": 0}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1369660/iFPaOnUeIV",
+        "id": 1369660}, "7849150": {"username": "deniscantu", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "French", "points": 51}], "total": 51}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/7849150/vogRVVuV9B",
+        "id": 7849150}, "8754623": {"username": "zenbakiak", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "English", "points": 67}], "total": 67}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/8754623/uVjeQ0uVtt",
+        "id": 8754623}, "7893088": {"username": "gelizondo82", "language_string":
+        "Portuguese", "language": "pt", "self": false, "points_data": {"languages":
+        [{"language_string": "German", "points": 463}], "total": 463}, "avatar": "https://s3.amazonaws.com/duolingo-images/avatar/default_1",
+        "id": 7893088}, "927170": {"username": "ojosef", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "Spanish", "points": 11}, {"language_string": "Italian", "points": 11}, {"language_string":
+        "Portuguese", "points": 0}], "total": 22}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/927170/SNyRU__o57",
+        "id": 927170}, "1496772": {"username": "hjbarraza", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "French", "points": 364}, {"language_string": "English", "points": 0}, {"language_string":
+        "Spanish", "points": 0}], "total": 364}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1496772/73OnYAqxdf",
+        "id": 1496772}, "3391300": {"username": "DFectuoso", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "German", "points": 0}], "total": 0}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/3391300/QGUIlOxha4",
+        "id": 3391300}, "2706122": {"username": "belpesce", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "Italian", "points": 10}], "total": 10}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2706122/E7MiWt3R4F",
+        "id": 2706122}, "2202871": {"username": "LulaV14", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "French", "points": 26}, {"language_string": "Italian", "points": 0}], "total":
+        26}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2202871/G2aNbXxJhi",
+        "id": 2202871}, "4205262": {"username": "sarita8008", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "French", "points": 174}], "total": 174}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/4205262/dzD3HNVGUO",
+        "id": 4205262}, "4371411": {"username": "jorge.e.go", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "Italian", "points": 341}, {"language_string": "German", "points": 45}, {"language_string":
+        "French", "points": 0}], "total": 386}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/4371411/P-LQMqa9XX",
+        "id": 4371411}, "3312596": {"username": "celestenorth", "language_string":
+        "Portuguese", "language": "pt", "self": false, "points_data": {"languages":
+        [{"language_string": "Portuguese", "points": 22}], "total": 22}, "avatar":
+        "https://duolingo-images.s3.amazonaws.com/avatars/3312596/MnIwrT23Kl", "id":
+        3312596}, "2713435": {"username": "gabrielasalinas", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "French", "points": 324}], "total": 324}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2713435/iHAf9nYcnY",
+        "id": 2713435}, "3836868": {"username": "hermayonaise", "language_string":
+        "Portuguese", "language": "pt", "self": false, "points_data": {"languages":
+        [{"language_string": "German", "points": 77}], "total": 77}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/3836868/2H-XFGXwfY",
+        "id": 3836868}, "1430645": {"username": "aracena", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "Portuguese", "points": 10}], "total": 10}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1430645/exDBs4b5Zz",
+        "id": 1430645}, "1375328": {"username": "eldelentes", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "English", "points": 245}, {"language_string": "Spanish", "points": 0}], "total":
+        245}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1375328/uscER1LvDZ",
+        "id": 1375328}, "7869284": {"username": "widget_mx", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "Portuguese", "points": 144}], "total": 144}, "avatar": "https://s3.amazonaws.com/duolingo-images/avatar/default_1",
+        "id": 7869284}, "1349609": {"username": "jorgeavilam", "language_string":
+        "Portuguese", "language": "pt", "self": false, "points_data": {"languages":
+        [{"language_string": "Portuguese", "points": 311}, {"language_string": "English",
+        "points": 135}], "total": 446}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1349609/ghdY5Gy-46",
+        "id": 1349609}, "5477610": {"username": "anaisvega", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "German", "points": 23}, {"language_string": "Italian", "points": 0}], "total":
+        23}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/5477610/ETp6INkJmA",
+        "id": 5477610}, "733166": {"username": "Sorasnd", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "English", "points": 22}], "total": 22}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/733166/gjA83mw5_Z",
+        "id": 733166}, "190319": {"username": "javiayala", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "English", "points": 3251}, {"language_string": "Italian", "points": 1108},
+        {"language_string": "French", "points": 89}], "total": 4448}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/190319/r9rq54lkdq",
+        "id": 190319}, "4419570": {"username": "lalalainexd", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "French", "points": 298}, {"language_string": "German", "points": 13}, {"language_string":
+        "Portuguese", "points": 10}], "total": 321}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/4419570/4I7Asf_0AH",
+        "id": 4419570}, "9577875": {"username": "catherine.157", "language_string":
+        "Portuguese", "language": "pt", "self": false, "points_data": {"languages":
+        [{"language_string": "Spanish", "points": 50}], "total": 50}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/9577875/sytuxqTmrU",
+        "id": 9577875}, "3685950": {"username": "eyannini", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "English", "points": 26}], "total": 26}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/3685950/Dt_A9wKk-u",
+        "id": 3685950}, "238876": {"username": "obvio171", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "Spanish", "points": 1780}, {"language_string": "German", "points": 681}],
+        "total": 2461}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/238876/iY1ZuXhohK",
+        "id": 238876}, "8973815": {"username": "oui55555", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "English", "points": 982}], "total": 982}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/8973815/ea01gKMnQq",
+        "id": 8973815}, "2766200": {"username": "novohispano", "language_string":
+        "Portuguese", "language": "pt", "self": true, "points_data": {"languages":
+        [{"language_string": "Portuguese", "points": 2285}], "total": 2285}, "avatar":
+        "https://duolingo-images.s3.amazonaws.com/avatars/2766200/XQUSZbmYkD", "id":
+        2766200}, "1280762": {"username": "danielcbs", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "German", "points": 87}, {"language_string": "Spanish", "points": 24}], "total":
+        111}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/1280762/HdZJ-DHaZP",
+        "id": 1280762}, "7551227": {"username": "joshuafrancia", "language_string":
+        "Portuguese", "language": "pt", "self": false, "points_data": {"languages":
+        [{"language_string": "English", "points": 200}], "total": 200}, "avatar":
+        "https://duolingo-images.s3.amazonaws.com/avatars/7551227/3IGzbiDi1G", "id":
+        7551227}, "7959061": {"username": "horaciochavez", "language_string": "Portuguese",
+        "language": "pt", "self": false, "points_data": {"languages": [{"language_string":
+        "English", "points": 249}, {"language_string": "French", "points": 0}], "total":
+        249}, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/7959061/ZFQG6wnpZH",
+        "id": 7959061}}, "max_tree_level": 15}}, "deactivated": false, "num_followers":
+        23, "dict_base_url": "http://d.duolingo.com/", "delete-permissions": false,
+        "languages": [{"streak": 0, "language_string": "French", "language": "fr",
+        "level": 1, "points": 0, "learning": false, "current_learning": false, "sentences_translated":
+        0}, {"streak": 0, "language_string": "Portuguese", "language": "pt", "level":
+        10, "points": 2285, "learning": true, "current_learning": true, "sentences_translated":
+        0}, {"streak": 0, "language_string": "German", "language": "de", "level":
+        1, "points": 0, "learning": false, "current_learning": false, "sentences_translated":
+        0}, {"streak": 0, "language_string": "Italian", "language": "it", "level":
+        1, "points": 0, "learning": false, "current_learning": false, "sentences_translated":
+        0}, {"streak": 0, "language_string": "Spanish", "language": "es", "level":
+        1, "points": 0, "learning": false, "current_learning": false, "sentences_translated":
+        0}], "location": null, "facebook_id": "2708018", "username": "novohispano",
+        "bio": "", "tts_cdn_url": "http://static.duolingo.com/", "js_version": "//d7mj4aqfscim2.cloudfront.net/proxy/js/9cd3ec082d7d679229af6cd18518a110_mv_.min.js-//d7mj4aqfscim2.cloudfront.net/proxy/js/88e0c7d809c4b09bed8a49ee4d926997_mv_.min.js",
+        "tts_base_url": "http://t.duolingo.com/", "site_streak": 0, "gplus_id": null,
+        "twitter_id": null, "avatar": "https://duolingo-images.s3.amazonaws.com/avatars/2766200/XQUSZbmYkD",
+        "streak_extended_today": false, "ui_language": "en", "fullname": "Jorge T\u00e9llez",
+        "num_following": 47, "is_following": false, "id": 2766200, "cohort": null,
+        "change-design": false, "followers": [], "inventory": {"timed_practice": "grandfathered"},
+        "notif_event_ids": ["ev_409141313", "ev_358963161", "ev_337315442", "ev_268554669"],
+        "certificates": [], "learning_language_string": "Portuguese", "events": [],
+        "following": [], "is_follower_by": false, "notify_comment": true, "notify_follow":
+        true, "created": "\n\n\n\n\n\n\n\n9 months ago\n\n", "admin": false, "learning_language":
+        "pt", "contribution_points": 0, "notify_pass": true, "invites_left": 3, "freeze-permissions":
+        false, "rupees": 151}'
+    http_version: 
+  recorded_at: Sat, 25 Jan 2014 05:42:51 GMT
+recorded_with: VCR 2.8.0
