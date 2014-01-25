@@ -25,4 +25,52 @@ describe "User" do
       expect(user.current_languages).to eq(['Portuguese'])
     end
   end
+
+  it "points for a particular language" do
+    VCR.use_cassette('user') do
+      username = "Novohispano"
+      user = Duolingo::User.new(username)
+      expect(user.points_for("Portuguese")).to eq("#{username} has 2285 points for Portuguese")
+    end
+  end
+
+  it "gets number of followers" do
+    VCR.use_cassette('user') do
+      username = "Novohispano"
+      user = Duolingo::User.new(username)
+      expect(user.number_of_followers).to eq(23)
+    end
+  end
+
+  it "is not a admin" do
+    VCR.use_cassette('user') do
+      username = "Novohispano"
+      user = Duolingo::User.new(username)
+      expect(user.is_admin?).to be_false
+    end
+  end
+
+  it "the date account was created" do
+    VCR.use_cassette('user') do
+      username = "Novohispano"
+      user = Duolingo::User.new(username)
+      expect(user.created_at).to eq("9 months ago")
+    end
+  end
+
+  it "number of people they are following" do
+    VCR.use_cassette('user') do
+      username = "Novohispano"
+      user = Duolingo::User.new(username)
+      expect(user.num_following).to eq(47)
+    end
+  end
+
+  it 'has a full name' do
+    VCR.use_cassette('user') do
+      username = "Novohispano"
+      user = Duolingo::User.new(username)
+      expect(user.full_name).to eq("Jorge Téllez")
+    end
+  end
 end

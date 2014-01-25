@@ -1,8 +1,9 @@
 module Duolingo
   class User
-    attr_reader :response, :data
+    attr_reader :response, :data, :username
 
     def initialize(username)
+      @username = username
       @response = Faraday.get("http://www.duolingo.com/users/#{username}")
       @data = JSON.parse(response.body)
     end
@@ -29,5 +30,31 @@ module Duolingo
       currently_studying
     end
 
+    def points_for(language)
+      points = data['languages'].map do |lan|
+        lan['points'] if lan['language_string'] == language.capitalize
+      end.compact
+      "#{username} has #{points.first} points for #{language}"
+    end
+
+    def number_of_followers
+      data['num_followers']
+    end
+
+    def is_admin?
+      data['admin']
+    end
+
+    def created_at
+      data['created'].gsub("\n", "")
+    end
+
+    def num_following
+      data['num_following']
+    end
+
+   def full_name
+     data['fullname']
+   end
   end
 end
