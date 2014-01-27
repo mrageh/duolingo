@@ -73,4 +73,12 @@ describe "User" do
       expect(user.full_name).to eq("Jorge Téllez")
     end
   end
+
+  it "returns the rank" do
+    VCR.use_cassette('user') do
+      username = "Novohispano"
+      user = Duolingo::User.new(username)
+      expect(user.rank).to eq(3)
+    end
+  end
 end
