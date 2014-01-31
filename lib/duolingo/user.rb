@@ -17,7 +17,7 @@ module Duolingo
     def languages_studied
       languages = []
       data['languages'].map do |lan|
-       languages << lan["language_string"] if lan["points"] > 0
+        languages << lan["language_string"] if lan["points"] > 0
       end
       languages
     end
@@ -53,8 +53,28 @@ module Duolingo
       data['num_following']
     end
 
-   def full_name
-     data['fullname']
-   end
+    def full_name
+      data['fullname']
+    end
+
+    def get_all_info
+      fields.map do |field|
+        data[field]
+      end
+    end
+
+    def stats_for_languages_studied
+      data['languages'].select do |lan|
+        lan if lan['points'] > 0
+      end
+    end
+
+    def fields
+      ['username','bio','id','num_following','cohort','num_followers', 'learning_language_string','created','contribution_points','gplus_id','twitter_id','admin','invites_left','location','fullname','avatar','ui_language']
+    end
+
+    def rank
+      data['rank']
+    end
   end
 end

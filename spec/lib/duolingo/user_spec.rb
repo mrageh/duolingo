@@ -74,7 +74,23 @@ describe "User" do
     end
   end
 
-  it "returns the rank" do
+  it 'returns all the users information' do
+    VCR.use_cassette('user') do
+      username = "Novohispano"
+      user = Duolingo::User.new(username)
+      expect(user.get_all_info).to include("Jorge Téllez")
+    end
+  end
+
+  it "return a lot of info for that language" do
+    VCR.use_cassette('user') do
+      username = "Novohispano"
+      user = Duolingo::User.new(username)
+      expect(user.stats_for_languages_studied.count).to eq 1
+    end
+  end
+
+  xit "returns the rank" do
     VCR.use_cassette('user') do
       username = "Novohispano"
       user = Duolingo::User.new(username)
