@@ -23,9 +23,9 @@ The data you can get back with this gem are listed below:
 
 * **get_all_info** - This gives you back an array containing all the users basic information
 ```ruby
-  username = "Novohispano"
-  user = Duolingo::User.new(username)
-  user.get_all_info
+username = "Novohispano"
+user = Duolingo::User.new(username)
+user.get_all_info
 ```
 
 ## Contributing
