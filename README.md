@@ -1,6 +1,7 @@
 # Duolingo
 
-TODO: Write a gem description
+Duolingo is a wrapper gem for the duolingo api. It allows 
+you to query the api for a particular users details.
 
 ## Installation
 
@@ -18,7 +19,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The data you can get back with this gem are listed below:
+
+* **get_all_info** - This gives you back an array containing all the users basic information
+```ruby
+username = "Novohispano"
+user = Duolingo::User.new(username)
+user.get_all_info
+end
+```
 
 ## Contributing
 
