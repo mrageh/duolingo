@@ -19,7 +19,7 @@ Or install it yourself as:
 
 ## Usage
 
-The data you can get back with this gem are listed below:
+The information you can get with this gem are listed below:
 
 * **get_all_info** - This gives you back an array containing all the users basic information
 ```ruby
