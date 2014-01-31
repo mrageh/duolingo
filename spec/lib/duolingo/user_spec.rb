@@ -90,6 +90,22 @@ describe "User" do
     end
   end
 
+  it "returns all of the friends" do
+    VCR.use_cassette('user') do
+      username = "Novohispano"
+      user = Duolingo::User.new(username)
+      expect(user.friends.count).to eq 47
+    end
+  end
+
+  it "returns stats for all friends" do
+    VCR.use_cassette('user') do
+      username = "Novohispano"
+      user = Duolingo::User.new(username)
+      expect(user.friends_stats).to include {"renechs"}
+    end
+  end
+
   xit "returns the rank" do
     VCR.use_cassette('user') do
       username = "Novohispano"

@@ -1,11 +1,13 @@
 module Duolingo
   class User
-    attr_reader :response, :data, :username
+    attr_reader :response, :data, :username, :all
 
     def initialize(username)
       @username = username
       @response = Faraday.get("http://www.duolingo.com/users/#{username}")
       @data = JSON.parse(response.body)
+
+      @all = data['language_data']['pt']['points_ranking_data']
     end
 
     def total_points
@@ -71,6 +73,18 @@ module Duolingo
 
     def fields
       ['username','bio','id','num_following','cohort','num_followers', 'learning_language_string','created','contribution_points','gplus_id','twitter_id','admin','invites_left','location','fullname','avatar','ui_language']
+    end
+
+    def friends
+      all.select do |friend|
+        friend unless friend['username'] == username.downcase
+      end
+    end
+
+    def friends_stats
+      friends.map do |friend|
+        {username: friend['username'], points: friend['points_data']['total']}
+      end
     end
 
     def rank
