@@ -88,7 +88,9 @@ module Duolingo
     end
 
     def rank
-      data['rank']
+      data['language_data']['pt']['points_ranking_data'].detect do |user|
+        user['username'] == username.downcase
+      end['rank']
     end
   end
 end

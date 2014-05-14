@@ -1,66 +1,67 @@
 require_relative '../../spec_helper'
 require './lib/duolingo/user'
 
-describe "User" do
-  it "returns the  total points for all languages" do
+describe 'User' do
+  it 'returns the  total points for all languages' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
       expect(user.total_points).to eq(2285)
     end
   end
 
-  it "all the studied languages" do
+  it 'all the studied languages' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
-      expect(user.languages_studied).to eq(["Portuguese"])
+      expect(user.languages_studied).to eq(['Portuguese'])
     end
   end
 
-  it "languages that are currently being studied" do
+  it 'languages that are currently being studied' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
       expect(user.current_languages).to eq(['Portuguese'])
     end
   end
 
-  it "points for a particular language" do
+  it 'points for a particular language' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
-      expect(user.points_for("Portuguese")).to eq("#{username} has 2285 points for Portuguese")
+      expect(user.points_for('Portuguese')).
+        to eq("#{username} has 2285 points for Portuguese")
     end
   end
 
-  it "gets number of followers" do
+  it 'gets number of followers' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
       expect(user.number_of_followers).to eq(23)
     end
   end
 
-  it "is not a admin" do
+  it 'is not a admin' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
       expect(user.is_admin?).to be_false
     end
   end
 
-  it "the date account was created" do
+  it 'the date account was created' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
-      expect(user.created_at).to eq("9 months ago")
+      expect(user.created_at).to eq('9 months ago')
     end
   end
 
-  it "number of people they are following" do
+  it 'number of people they are following' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
       expect(user.num_following).to eq(47)
     end
@@ -68,47 +69,47 @@ describe "User" do
 
   it 'has a full name' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
-      expect(user.full_name).to eq("Jorge Téllez")
+      expect(user.full_name).to eq('Jorge Téllez')
     end
   end
 
   it 'returns all the users information' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
-      expect(user.get_all_info).to include("Jorge Téllez")
+      expect(user.get_all_info).to include('Jorge Téllez')
     end
   end
 
-  it "return a lot of info for that language" do
+  it 'return a lot of info for that language' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
       expect(user.stats_for_languages_studied.count).to eq 1
     end
   end
 
-  it "returns all of the friends" do
+  it 'returns all of the friends' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
       expect(user.friends.count).to eq 47
     end
   end
 
-  it "returns stats for all friends" do
+  it 'returns stats for all friends' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
-      expect(user.friends_stats).to include {"renechs"}
+      expect(user.friends_stats).to include { 'renechs' }
     end
   end
 
-  xit "returns the rank" do
+  it 'returns the rank' do
     VCR.use_cassette('user') do
-      username = "Novohispano"
+      username = 'Novohispano'
       user = Duolingo::User.new(username)
       expect(user.rank).to eq(3)
     end
