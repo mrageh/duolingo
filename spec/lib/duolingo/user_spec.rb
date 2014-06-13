@@ -47,7 +47,7 @@ describe 'User' do
     VCR.use_cassette('user') do
       username = 'Novohispano'
       user = Duolingo::User.new(username)
-      expect(user.is_admin?).to be_false
+      expect(user).not_to be_admin
     end
   end
 

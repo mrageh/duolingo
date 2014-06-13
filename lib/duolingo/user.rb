@@ -43,7 +43,7 @@ module Duolingo
       data['num_followers']
     end
 
-    def is_admin?
+    def admin?
       data['admin']
     end
 
