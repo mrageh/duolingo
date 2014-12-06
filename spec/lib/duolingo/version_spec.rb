@@ -1,6 +1,6 @@
-require_relative '../../spec_helper'
+require_relative "../../spec_helper"
 
-describe Duolingo do
+describe Duolingo::VERSION do
 
   it "must be defined" do
     expect(Duolingo::VERSION).to_not be_nil

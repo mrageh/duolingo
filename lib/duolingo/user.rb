@@ -7,18 +7,18 @@ module Duolingo
       @response = Faraday.get("http://www.duolingo.com/users/#{username}")
       @data = JSON.parse(response.body)
 
-      @all = data['language_data']['pt']['points_ranking_data']
+      @all = data["language_data"]["pt"]["points_ranking_data"]
     end
 
     def total_points
-      data['languages'].inject(0) do |sum, lan|
+      data["languages"].inject(0) do |sum, lan|
         sum + lan["points"]
       end
     end
 
     def languages_studied
       languages = []
-      data['languages'].map do |lan|
+      data["languages"].map do |lan|
         languages << lan["language_string"] if lan["points"] > 0
       end
       languages
@@ -26,37 +26,37 @@ module Duolingo
 
     def current_languages
       currently_studying = []
-      data['languages'].map do |lan|
-        currently_studying << lan['language_string'] if lan['current_learning']
+      data["languages"].map do |lan|
+        currently_studying << lan["language_string"] if lan["current_learning"]
       end
       currently_studying
     end
 
     def points_for(language)
-      points = data['languages'].map do |lan|
-        lan['points'] if lan['language_string'] == language.capitalize
+      points = data["languages"].map do |lan|
+        lan["points"] if lan["language_string"] == language.capitalize
       end.compact
       "#{username} has #{points.first} points for #{language}"
     end
 
     def number_of_followers
-      data['num_followers']
+      data["num_followers"]
     end
 
     def admin?
-      data['admin']
+      data["admin"]
     end
 
     def created_at
-      data['created'].gsub("\n", "")
+      data["created"].gsub("\n", "")
     end
 
     def num_following
-      data['num_following']
+      data["num_following"]
     end
 
     def full_name
-      data['fullname']
+      data["fullname"]
     end
 
     def get_all_info
@@ -66,31 +66,36 @@ module Duolingo
     end
 
     def stats_for_languages_studied
-      data['languages'].select do |lan|
-        lan if lan['points'] > 0
+      data["languages"].select do |lan|
+        lan if lan["points"] > 0
       end
     end
 
     def fields
-      ['username','bio','id','num_following','cohort','num_followers', 'learning_language_string','created','contribution_points','gplus_id','twitter_id','admin','invites_left','location','fullname','avatar','ui_language']
+      [
+        "username", "bio", "id", "num_following", "cohort",
+        "num_followers", "learning_language_string", "created",
+        "contribution_points", "gplus_id", "twitter_id", "admin",
+        "invites_left", "location", "fullname", "avatar", "ui_language"
+      ]
     end
 
     def friends
       all.select do |friend|
-        friend unless friend['username'] == username.downcase
+        friend unless friend["username"] == username.downcase
       end
     end
 
     def friends_stats
       friends.map do |friend|
-        {username: friend['username'], points: friend['points_data']['total']}
+        { username: friend["username"], points: friend["points_data"]["total"] }
       end
     end
 
     def rank
-      data['language_data']['pt']['points_ranking_data'].detect do |user|
-        user['username'] == username.downcase
-      end['rank']
+      data["language_data"]["pt"]["points_ranking_data"].detect do |user|
+        user["username"] == username.downcase
+      end["rank"]
     end
   end
 end
