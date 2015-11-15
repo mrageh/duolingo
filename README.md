@@ -1,4 +1,4 @@
-# Duolingo [![Build Status](https://travis-ci.org/Adam89/duolingo.svg?branch=master)](https://travis-ci.org/Adam89/duolingo)
+# Duolingo [![Build Status](https://travis-ci.org/mrageh/duolingo.svg?branch=master)](https://travis-ci.org/Adam89/duolingo)
 
 Duolingo is a wrapper gem for the duolingo api. It allows
 you to query the api for a particular users details.
